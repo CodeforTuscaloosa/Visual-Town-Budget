@@ -42,7 +42,7 @@
     <div class="flexslider carousel">
       <ul class="slides">
         <li>
-          <img src="img/slides/slide1.jpg" />
+          <img src="/Visual-Town-Budget/img/slides/slide1.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>City Council Budget Goals For 2015-2016</h2>
@@ -64,7 +64,7 @@
             </div>
         </li>
         <li>
-          <img src="img/slides/slide2.jpg" />
+          <img src="/Visual-Town-Budget/img/slides/slide2.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Revenue Highlights</h2>
@@ -86,7 +86,7 @@
             </div>
         </li>
         <li>
-          <img src="img/slides/slide3.jpg" />
+          <img src="/Visual-Town-Budget/img/slides/slide3.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Expenditure Highlights</h2>
@@ -109,7 +109,7 @@
             </div>
         </li>
         <li>
-          <img src="img/slides/slide4.jpg" />
+          <img src="/Visual-Town-Budget/img/slides/slide4.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Staffing Highlights</h2>
@@ -131,7 +131,7 @@
         </li>
 
         <li>
-          <img src="img/slides/slide5.jpg" />
+          <img src="/Visual-Town-Budget/img/slides/slide5.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Budget Highlights By Fund</h2>
@@ -155,7 +155,7 @@
             </div>
         </li>
         <li>
-          <img src="img/slides/slide6.jpg" />
+          <img src="/Visual-Town-Budget/img/slides/slide6.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Capital Improvements</h2>
@@ -176,7 +176,7 @@
             </div>
         </li>
         <li>
-          <img src="img/slides/slide7.jpg" />
+          <img src="/Visual-Town-Budget/img/slides/slide7.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Changes from the Proposed Budget</h2>

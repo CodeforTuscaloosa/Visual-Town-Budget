@@ -173,9 +173,9 @@ stats = {
 },
 
 decks = {
-    revenues: [stats.amount, stats.growth, stats.impact, stats.mean, stats.source],
-    expenses: [stats.amount,  stats.growth, stats.impact, stats.mean, stats.source],
-    funds: [stats.amount, stats.growth, stats.impact, stats.mean, stats.source]
+    revenues: [stats.amount, stats.growth, stats.impact, stats.mean/*, stats.source*/],
+    expenses: [stats.amount,  stats.growth, stats.impact, stats.mean/*, stats.source*/],
+    funds: [stats.amount, stats.growth, stats.impact, stats.mean/*, stats.source*/]
 },
 
 tables = {

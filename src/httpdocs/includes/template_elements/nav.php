@@ -1,16 +1,20 @@
 <ul class="nav nav-pills">
   <li>
+    <a href="/Visual-Town-Budget/expenses">
+      <img src="/Visual-Town-Budget/img/money-icon.png" alt='bulb icon'/>
+      Explore the Budget
+    </a>
+  </li>
+  <li>
     <a href="/Visual-Town-Budget/whatsnew">
       <img src="/Visual-Town-Budget/img/bulb-icon.png" alt='bulb icon'/>
       Tell Me What's New 
     </a>
   </li>
   <li>
-
-    <a href="/Visual-Town-Budget/expenses">
+    <a href="/Visual-Town-Budget/capital">
       <img src="/Visual-Town-Budget/img/money-icon.png" alt='bulb icon'/>
-
-      Show me the Money
+      Capital Improvements
     </a>
   </li>
   <li>

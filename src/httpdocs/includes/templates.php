@@ -89,7 +89,7 @@
 <!-- table row template -->
 <script type="text/html" id="row-template">
   <div class="tablerow">
-    <div class="bullet"> <img class="expand-icon" src="img/listBullet.png" /> </div>
+    <div class="bullet"> <img class="expand-icon" src="/Virtual-Town-Budget/img/listBullet.png" /> </div>
   </div>
 </script>
 

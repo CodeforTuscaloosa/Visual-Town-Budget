@@ -10,7 +10,7 @@
 
     <div id="navbar-links" style="line-height:30px;"> 
 
-     <div onclick='window.location = "/expenses"' class="entry homebutton"> City Budget, Visualized </div>
+     <div onclick='window.location = "/Visual-Town-Budget/expenses"' class="entry homebutton"> City Budget, Visualized </div>
 
      <div class="entry navbar-margin">
         <span class="menubutton section margin" data-section="revenues"><a href="/Visual-Town-Budget/revenues">Revenues</a></span>
@@ -24,7 +24,7 @@
     
         <div class="menubutton margin">
           <span> <i class="icon-th-large"></i> </span>
-          <a id="navbar-map" href="javascript:avb.home.hide();switchMode('t'); "> Map view </a>
+          <a id="navbar-map" href="javascript:avb.home.hide();switchMode('t'); "> Chart view </a>
         </div>
         <div class="menubutton margin">
           <span> <i class="icon-th-list"></i> </span>

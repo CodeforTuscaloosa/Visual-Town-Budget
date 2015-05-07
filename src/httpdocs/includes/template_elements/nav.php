@@ -7,7 +7,7 @@
   </li>
   <li>
 
-    <a href="/Visual-Town-Budget/index.php">
+    <a href="/Visual-Town-Budget/expenses">
       <img src="/Visual-Town-Budget/img/money-icon.png" alt='bulb icon'/>
 
       Show me the Money

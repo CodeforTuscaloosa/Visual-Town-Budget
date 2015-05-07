@@ -1,40 +1,21 @@
 LEVEL1,LEVEL2,LEVEL3,TOOLTIP,SOURCE,SOURCE URL,2013,2014,2015,2016,LEVEL
-Community Dev Block Grant Total,,,,,,"3,188,848","3,371,060","3,653,829","3,653,829",1
-Conv Ctr Financing Fd-Spec Rev Total,,,,,,"17,163,200","18,847,730","29,318,000","29,318,000",1
-E 911 State Tax Fund-Operating Total,,,,,,"2,489,189","2,681,165","2,634,873","2,634,873",1
-Economic Development Fund Total,,,,,,"2,130,302","1,621,762","1,935,950","1,935,950",1
-Emergency Shelter Grant Total,,,,,,,,"217,085","217,085",1
-General Debt Service Fund Total,,,,,,"52,693,546","52,700,404","58,832,300","58,832,300",1
-General Fund Total,,,,,,"383,571,703","404,773,087","416,705,376","416,705,376",1
-Home Grant Total,,,,,,,,"1,725,309","1,725,309",1
-Housing Development-Operating Total,,,,,,"1,083,483","1,225,229","1,545,031","1,545,031",1
-Housing Development-Projects Total,,,,,,"615,349","336,573","500,000","500,000",1
-Parking Debt Service Fund Total,,,,,,"7,925,000","7,875,000","7,725,000","7,725,000",1
-Parking Facilities Fund-Operat Total,,,,,,"14,816,191","15,198,466","16,017,222","16,017,222",1
-Public Transit Fund-Operating Total,,,,,,"26,155,992","26,660,662","27,280,013","27,280,013",1
-Public Utilities Fund Total,,,,,,"190,120,430","199,092,077","207,656,634","207,656,634",1
-RCC/PAC Debt Svc Fund Total,,,,,,"11,166,170","11,198,970","18,483,000","18,483,000",1
-RCC/PAC Operations Fund Total,,,,,,"16,335,072","17,444,443","18,358,726","18,358,726",1
-Revolving Fund Total,,,,,,"8,376,795","8,398,431","9,292,911","9,292,911",1
-Sewer Reuse/Infrastructure Fd Total,,,,,,,,"6,112,089","6,112,089",1
-Stormwater Utility Fund Total,,,,,,"15,864,531","16,063,667","16,688,473","16,688,473",1
-SWS Debt Service Fund Total,,,,,,,"2,104,075","2,066,000","2,066,000",1
-SWS Operating Fund Total,,,,,,"31,557,805","32,575,987","35,298,510","35,298,510",1
-Transit CAMPO Fund Total,,,,,,,,"3,243,193","3,243,193",1
-Utility Debt Service Fund Total,,,,,,"51,589,669","55,236,585","55,631,100","55,631,100",1
-Walnut Creek Amph Operating Fd Total,,,,,,,"1,350,193","1,255,815","1,255,815",1
-Water Infrastructure Total,,,,,,,,"2,888,422","2,888,422",1
 Community Dev Block Grant,Community Development Total,,,,,"3,188,848","3,371,060","3,653,829","3,653,829",2
+Community Dev Block Grant Total,,,,,,"3,188,848","3,371,060","3,653,829","3,653,829",1
 Conv Ctr Financing Fd-Spec Rev,Finance Administration Total,,,,,"4,933,455","5,743,018","10,392,000","10,392,000",2
 Conv Ctr Financing Fd-Spec Rev,Treasury Office Total,,,,,"12,229,745","13,104,712","18,926,000","18,926,000",2
+Conv Ctr Financing Fd-Spec Rev Total,,,,,,"17,163,200","18,847,730","29,318,000","29,318,000",1
 E 911 State Tax Fund-Operating,Emergency Communications Total,,,,,"2,489,189","2,681,165","2,634,873","2,634,873",2
+E 911 State Tax Fund-Operating Total,,,,,,"2,489,189","2,681,165","2,634,873","2,634,873",1
 Economic Development Fund,Budget & Management Services Total,,,,,"68,053","2,500","30,000","30,000",2
 Economic Development Fund,Finance Administration Total,,,,,"900,000","395,650","500,000","500,000",2
 Economic Development Fund,Information Technology Admin Total,,,,,"369,000","359,000",,,2
 Economic Development Fund,Office of Economic Development Total,,,,,,,"1,405,950","1,405,950",2
 Economic Development Fund,Planning Total,,,,,"788,249","863,612",,,2
+Economic Development Fund Total,,,,,,"2,130,302","1,621,762","1,935,950","1,935,950",1
 Emergency Shelter Grant,Community Development Total,,,,,,,"217,085","217,085",2
+Emergency Shelter Grant Total,,,,,,,,"217,085","217,085",1
 General Debt Service Fund,Treasury Office Total,,,,,"52,693,546","52,700,404","58,832,300","58,832,300",2
+General Debt Service Fund Total,,,,,,"52,693,546","52,700,404","58,832,300","58,832,300",1
 General Fund,Accounting & Fin Reporting Total,,,,,"1,655,048","1,884,210","1,863,406","1,863,406",2
 General Fund,Agency Appropriations Total,,,,,"2,052,760","2,343,183",,,2
 General Fund,Arts Appropriations Total,,,,,,,"2,317,093","2,317,093",2
@@ -112,13 +93,20 @@ General Fund,Street Maintenance Total,,,,,"9,071,686","9,262,603","10,638,026","
 General Fund,Treasury Office Total,,,,,"629,652","650,936","669,717","669,717",2
 General Fund,Urban Trees Total,,,,,"1,263,891","1,314,682",,,2
 General Fund,Utility Billing Svcs Total,,,,,"5,728,735",,,,2
+General Fund Total,,,,,,"383,571,703","404,773,087","416,705,376","416,705,376",1
 Home Grant,Community Development Total,,,,,,,"1,725,309","1,725,309",2
+Home Grant Total,,,,,,,,"1,725,309","1,725,309",1
 Housing Development-Operating,Community Development Total,,,,,"1,083,483","1,225,229","1,545,031","1,545,031",2
+Housing Development-Operating Total,,,,,,"1,083,483","1,225,229","1,545,031","1,545,031",1
 Housing Development-Projects,Community Development Total,,,,,"615,349","336,573","500,000","500,000",2
+Housing Development-Projects Total,,,,,,"615,349","336,573","500,000","500,000",1
 Parking Debt Service Fund,Treasury Office Total,,,,,"7,925,000","7,875,000","7,725,000","7,725,000",2
+Parking Debt Service Fund Total,,,,,,"7,925,000","7,875,000","7,725,000","7,725,000",1
 Parking Facilities Fund-Operat,Parking Operations Total,,,,,"14,816,191","15,198,466","16,017,222","16,017,222",2
+Parking Facilities Fund-Operat Total,,,,,,"14,816,191","15,198,466","16,017,222","16,017,222",1
 Public Transit Fund-Operating,Accessible Raleigh Transit Total,,,,,"8,037,074","8,052,583","8,059,982","8,059,982",2
 Public Transit Fund-Operating,Transit Operations Total,,,,,"18,118,918","18,608,079","19,220,031","19,220,031",2
+Public Transit Fund-Operating Total,,,,,,"26,155,992","26,660,662","27,280,013","27,280,013",1
 Public Utilities Fund,PU Capital Improvement Mgmt Total,,,,,"2,140,001","2,363,458","2,607,557","2,607,557",2
 Public Utilities Fund,PU Facilities Support Total,,,,,"2,628,057","2,430,141","2,515,552","2,515,552",2
 Public Utilities Fund,PU Meters Total,,,,,"5,479,666","5,558,585","5,688,331","5,688,331",2
@@ -130,11 +118,14 @@ Public Utilities Fund,PU Water Plant Total,,,,,"21,182,702","21,307,613","20,207
 Public Utilities Fund,Public Utilities Admin Total,,,,,"6,009,360","7,337,483","7,808,646","7,808,646",2
 Public Utilities Fund,Public Utilities-Spec Appropriations Total,,,,,"112,152,650","112,997,423","120,702,702","120,702,702",2
 Public Utilities Fund,Resource Recovery Total,,,,,"16,895,700","22,034,697","21,751,531","21,751,531",2
+Public Utilities Fund Total,,,,,,"190,120,430","199,092,077","207,656,634","207,656,634",1
 RCC/PAC Debt Svc Fund,Treasury Office Total,,,,,"11,166,170","11,198,970","18,483,000","18,483,000",2
+RCC/PAC Debt Svc Fund Total,,,,,,"11,166,170","11,198,970","18,483,000","18,483,000",1
 RCC/PAC Operations Fund,Performing Arts Center Total,,,,,"6,253,394","6,552,320","6,911,715","6,911,715",2
 RCC/PAC Operations Fund,RCC Downtown Amphitheatre Total,,,,,"1,419,471","1,490,589","1,697,414","1,697,414",2
 RCC/PAC Operations Fund,RCC Facility Total,,,,,"8,533,781","9,178,283","9,422,808","9,422,808",2
 RCC/PAC Operations Fund,RCC/PAC Special Events Total,,,,,"128,426","223,251","326,789","326,789",2
+RCC/PAC Operations Fund Total,,,,,,"16,335,072","17,444,443","18,358,726","18,358,726",1
 Revolving Fund,Arts Office_P&R Total,,,,,"91,535","85,535",,,2
 Revolving Fund,City Manager Total,,,,,"9,500","9,500","9,500","9,500",2
 Revolving Fund,Community Svcs Total,,,,,"12,000","30,000","30,000","30,000",2
@@ -154,16 +145,25 @@ Revolving Fund,PRCR - Resources Total,,,,,,,"85,535","85,535",2
 Revolving Fund,Public Affairs-Rtn Total,,,,,"140,000","435,000","435,000","435,000",2
 Revolving Fund,Solid Waste Admin Total,,,,,"590,820",,,,2
 Revolving Fund,Urban Trees Total,,,,,"35,000","30,000",,,2
+Revolving Fund Total,,,,,,"8,376,795","8,398,431","9,292,911","9,292,911",1
 Sewer Reuse/Infrastructure Fd,Non-Departmental Total,,,,,,,"6,112,089","6,112,089",2
+Sewer Reuse/Infrastructure Fd Total,,,,,,,,"6,112,089","6,112,089",1
 Stormwater Utility Fund,Stormwater Management Total,,,,,"15,864,531","16,063,667","16,681,485","16,681,485",2
 Stormwater Utility Fund,Treasury Office Total,,,,,,,"6,988","6,988",2
+Stormwater Utility Fund Total,,,,,,"15,864,531","16,063,667","16,688,473","16,688,473",1
 SWS Debt Service Fund,Treasury Office Total,,,,,,"2,104,075","2,066,000","2,066,000",2
+SWS Debt Service Fund Total,,,,,,,"2,104,075","2,066,000","2,066,000",1
 SWS Operating Fund,Solid Waste Admin Total,,,,,"9,609,271","8,703,617","9,603,254","9,603,254",2
 SWS Operating Fund,Solid Waste Recycling Total,,,,,"4,656,729","5,085,776","5,234,116","5,234,116",2
 SWS Operating Fund,Solid Waste Residential Collection Total,,,,,"15,127,171","16,316,299","18,061,549","18,061,549",2
 SWS Operating Fund,Solid Waste Yardwaste Ctr Total,,,,,"2,164,634","2,470,295","2,399,591","2,399,591",2
+SWS Operating Fund Total,,,,,,"31,557,805","32,575,987","35,298,510","35,298,510",1
 Transit CAMPO Fund,Planning  - CAMPO Total,,,,,,,"3,243,193","3,243,193",2
+Transit CAMPO Fund Total,,,,,,,,"3,243,193","3,243,193",1
 Utility Debt Service Fund,Treasury Office Total,,,,,"51,589,669","55,236,585","55,631,100","55,631,100",2
+Utility Debt Service Fund Total,,,,,,"51,589,669","55,236,585","55,631,100","55,631,100",1
 Walnut Creek Amph Operating Fd,Walnut Creek Amphitheatre Total,,,,,,"1,350,193","1,255,815","1,255,815",2
+Walnut Creek Amph Operating Fd Total,,,,,,,"1,350,193","1,255,815","1,255,815",1
 Water Infrastructure,Non-Departmental Total,,,,,,,"2,888,422","2,888,422",2
+Water Infrastructure Total,,,,,,,,"2,888,422","2,888,422",1
 FUNDS TOTAL,,,,,,"836,843,275","878,755,566","945,064,861","945,064,861",0

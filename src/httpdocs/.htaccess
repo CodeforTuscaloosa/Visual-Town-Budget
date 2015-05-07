@@ -1,6 +1,6 @@
 # Redirect everything in this directory to "good.html"   
 RewriteEngine on 
-RewriteBase /
+RewriteBase /Visual-Town-Budget
 
 # Resolves #7 - Make "Show me the Money" the home page - starts with revenues
 RewriteRule ^$ index.php?page=revenues

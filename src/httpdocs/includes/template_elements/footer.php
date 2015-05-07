@@ -17,7 +17,7 @@
           </div>
           <!-- FOOTER COLUMN 2 --> 
           <div class='span4 omega feedback'>
-	  <a class="border-button" target="_blank" href="https://docs.google.com/forms/d/1oqbJ_RqX8NRNTPsUe3K67VG0BB6Js8yZkYe8fnLnSCk/viewform?usp=send_form"><img src="/Virtual-Town-Budget/img/feedback-icon.png" alt="1feedback icon"/> <h4>Give Feedback</h4></a>
+	  <a class="border-button" target="_blank" href="https://docs.google.com/forms/d/1oqbJ_RqX8NRNTPsUe3K67VG0BB6Js8yZkYe8fnLnSCk/viewform?usp=send_form"><img src="/Visual-Town-Budget/img/feedback-icon.png" alt="1feedback icon"/> <h4>Give Feedback</h4></a>
 	  <!-- Deleted mailchimp signup from here - see holdMailChimpSignup file to restore -->
 	  </div>
          <!-- FOOTER COLUMN 3 -->

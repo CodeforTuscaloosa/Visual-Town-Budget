@@ -1,27 +1,27 @@
 <ul class="nav nav-pills">
   <li>
-    <a href="whatsnew">
-      <img src="img/bulb-icon.png" alt='bulb icon'/>
+    <a href="/Virtual-Town-Budget/whatsnew">
+      <img src="/Virtual-Town-Budget/img/bulb-icon.png" alt='bulb icon'/>
       Tell Me What's New 
     </a>
   </li>
   <li>
 
-    <a href="index.php">
-      <img src="img/money-icon.png" alt='bulb icon'/>
+    <a href="/Virtual-Town-Budget/index.php">
+      <img src="/Virtual-Town-Budget/img/money-icon.png" alt='bulb icon'/>
 
       Show me the Money
     </a>
   </li>
   <li>
     <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html">
-      <img src="img/db-icon.png" alt='bulb icon'/>
+      <img src="/Virtual-Town-Budget/img/db-icon.png" alt='bulb icon'/>
       Budget Process 
     </a>
   </li>
    <li>
     <a style="" href="https://docs.google.com/forms/d/1oqbJ_RqX8NRNTPsUe3K67VG0BB6Js8yZkYe8fnLnSCk/viewform?usp=send_form" target="_blank">
-      <img src="img/feedback-nav.png" alt='feedback icon'/>
+      <img src="/Virtual-Town-Budget/img/feedback-nav.png" alt='feedback icon'/>
       Feedback
     </a>
   </li>

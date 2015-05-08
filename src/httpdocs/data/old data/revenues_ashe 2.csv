@@ -1,0 +1,85 @@
+LEVEL1,LEVEL2,LEVEL3,TOOLTIP,SOURCE,SOURCE URL,2013,2014,2015,2016,LEVEL
+Workers' Compensation Fund,Finance,Workers Compensation,,,,0,0,0,"1,090,300",3
+Workers' Compensation Fund,Finance Total,,,,,0,0,0,"1,090,300",2
+Workers' Compensation Fund Total,,,,,,0,0,0,"1,090,300",1
+Civic Center Fund,Civic Center,Concessions Division,,,,"597,889.76","1,071,400.34","629,692.57","988,006",3
+Civic Center Fund,Civic Center,Civic Center Administration,,,,"1,049,838","742,762.64","1,039,936.74","1,690,427",3
+Civic Center Fund,Civic Center,Event Personnel Division,,,,"120,591.97","142,976.84","125,448.9","150,000",3
+Civic Center Fund,Civic Center,Ticket Office,,,,"46,840.8","59,112.63","81,030.66","50,000",3
+Civic Center Fund,Civic Center Total,,,,,1815160.5300000003,"2,016,252.45",1876108.8699999999,"2,878,433",2
+Civic Center Fund Total,,,,,,1815160.5300000003,"2,016,252.45",1876108.8699999999,"2,878,433",1
+Street Cut Utility Fund,Public Works,Street Cuts Division,,,,0,"40,000",1541597.5199999998,"1,493,808",3
+Street Cut Utility Fund,Public Works Total,,,,,0,"40,000",1541597.5199999998,"1,493,808",2
+Street Cut Utility Fund Total,,,,,,0,"40,000",1541597.5199999998,"1,493,808",1
+Health Insurance Fund,Human Resources,Group Health Life & Dental,,,,0,0,0,1E+07,3
+Health Insurance Fund,Human Resources Total,,,,,0,0,0,1E+07,2
+Health Insurance Fund Total,,,,,,0,0,0,1E+07,1
+Parking Services Fund,Transportation,Parking Services Division,,,,1653752.1500000001,"1,585,822.02","1,620,427.5","1,992,700",3
+Parking Services Fund,Transportation,Parking Garage Divison,,,,"1,173,504.54",1335108.8699999999,1625405.4600000002,"1,864,000",3
+Parking Services Fund,Transportation Total,,,,,"2,827,256.69",2920930.889999999,3245832.9600000004,"3,856,700",2
+Parking Services Fund Total,,,,,,"2,827,256.69",2920930.889999999,3245832.9600000004,"3,856,700",1
+Water Services Fund,Water,Water General Operations Div,,,,"359,152.76","162,675.9","278,225.36","8,584,359",3
+Water Services Fund,Water,Water Administration,,,,"922,259.31","945,915.5","1,085,893.84","1,003,499",3
+Water Services Fund,Water,Maintenance & Repairs Division,,,,"4,956","1,567.98",0,"16,000",3
+Water Services Fund,Water,Meter Services Division,,,,3.02E+07,3.1830897130000003E7,3.1961248410000004E7,3E+07,3
+Water Services Fund,Water Total,,,,,3.1533532700000003E7,3.29E+07,3.33E+07,4E+07,2
+Water Services Fund Total,,,,,,3.1533532700000003E7,3.29E+07,3.33E+07,4E+07,1
+Stormwater Fund,Public Works,Stormwater Admin Division,,,,0,"3,138,342.15",2991058.0000000005,"3,648,723",3
+Stormwater Fund,Public Works Total,,,,,0,"3,138,342.15",2991058.0000000005,"3,648,723",2
+Stormwater Fund Total,,,,,,0,"3,138,342.15",2991058.0000000005,"3,648,723",1
+Property and Liability Fund,Administration Services,General Insurance and Bonds,,,,0,0,0,"2,351,475",3
+Property and Liability Fund,Administration Services Total,,,,,0,0,0,"2,351,475",2
+Property and Liability Fund Total,,,,,,0,0,0,"2,351,475",1
+Mass Transit Fund,Transportation,Transit Administration Div,,,,0,"161,051","419,967","553,500",3
+Mass Transit Fund,Transportation,Transit Operations Division,,,,"5,285,020.26","5,132,231.35","4,880,575.32","5,215,788",3
+Mass Transit Fund,Transportation Total,,,,,"5,285,020.26","5,293,282.35","5,300,542.32","5,769,288",2
+Mass Transit Fund Total,,,,,,"5,285,020.26","5,293,282.35","5,300,542.32","5,769,288",1
+General Fund,Fire & Rescue,Fire Support Services Division,,,,"1,729,163.94",1480235.4900000002,"1,751,400.57","1,848,877",3
+General Fund,Fire & Rescue,Emergency Response Division,,,,"10,500","72,000","43,135.12","57,000",3
+General Fund,Fire & Rescue Total,,,,,"1,739,663.94",1552235.4900000002,1794535.6900000002,"1,905,877",2
+General Fund,Information Technology,IT Support Services Division,,,,0,0,0,"700,000",3
+General Fund,Information Technology,Technical Services Division,,,,61369.009999999995,"77,005.16","191,470.07","112,710",3
+General Fund,Information Technology,GIS Appl Services Division,,,,0,0,0,"16,540",3
+General Fund,Information Technology Total,,,,,61369.009999999995,"77,005.16","191,470.07","829,250",2
+General Fund,Non-Departmental,Non-Divisional,,,,0,0,0,"813,543",3
+General Fund,Non-Departmental,Inter-Extra Goverment Services,,,,"76,481.21","42,958.56","47,135.37","50,000",3
+General Fund,Non-Departmental Total,,,,,"76,481.21","42,958.56","47,135.37","863,543",2
+General Fund,Parks Rec & Cultural Arts,Community Program,,,,0,0,0,0,3
+General Fund,Parks Rec & Cultural Arts,Specialized Facilities Div,,,,"606,378.52","713,693.65","719,350.3","634,000",3
+General Fund,Parks Rec & Cultural Arts,Parks Maintenance Division,,,,0,"163,826.5","154,298.5","142,500",3
+General Fund,Parks Rec & Cultural Arts,Recreation Division,,,,"108,304.43","342,673.05","437,757.32","460,375",3
+General Fund,Parks Rec & Cultural Arts,Parks Administration Division,,,,0,0,0,"75,000",3
+General Fund,Parks Rec & Cultural Arts,Cultural Arts Division,,,,0,0,485495.79000000004,"476,000",3
+General Fund,Parks Rec & Cultural Arts Total,,,,,714682.9500000001,"1,220,193.2",1796901.9100000004,"1,787,875",2
+General Fund,Transportation,Traffic Engineering Division,,,,9744.609999999999,"7,473.15","9,190.44","8,000",3
+General Fund,Transportation,Transportation Planning Div,,,,"1,501.07",862,0,0,3
+General Fund,Transportation Total,,,,,11245.679999999998,"8,335.15","9,190.44","8,000",2
+General Fund,Public Works,Public Works Administration,,,,"2,140,830.63","2,172,015.85","2,317,583.19","2,403,662",3
+General Fund,Public Works,Sanitation Division,,,,"163,261.7","232,756","216,530.46","2,464,500",3
+General Fund,Public Works,Streets & Sidewalks Division,,,,"101,302.15","63,090.92","216,532.69","130,006",3
+General Fund,Public Works Total,,,,,"2,405,394.48",2467862.7699999996,2750646.3400000003,"4,998,168",2
+General Fund,Finance,Budget Division,,,,"2,676,753","2,499,821","2,349,404","2,009,225",3
+General Fund,Finance,Accounting Division,,,,9619828.639999999,1.04E+07,1.01E+07,"9,907,623",3
+General Fund,Finance,Purchasing Operations Division,,,,"28,143.94","118,986.78","368,129.59","68,000",3
+General Fund,Finance,Finance Administration,,,,5.936139770999999E7,6.0903746809999995E7,6.292032567999999E7,7E+07,3
+General Fund,Finance Total,,,,,7.168612328999996E7,7.394497841999997E7,7.576175635000002E7,8E+07,2
+General Fund,Planning & Development,Planning Services Division,,,,"286,750.04","298,358.06",335416.55000000005,"330,250",3
+General Fund,Planning & Development,Community Development Division,,,,"32,000","45,261.72","41,717.59","56,780",3
+General Fund,Planning & Development,Historic Resources Division,,,,"5,557","6,625","9,663.58","12,925",3
+General Fund,Planning & Development Total,,,,,"324,307.04","350,244.78","386,797.72","399,955",2
+General Fund,Building Safety,Permitting & Inspections Div,,,,"2,182,754.89","2,141,936.63",2278323.9699999997,"2,216,950",3
+General Fund,Building Safety Total,,,,,"2,182,754.89","2,141,936.63",2278323.9699999997,"2,216,950",2
+General Fund,Economic Development,Economic Development Division,,,,0,"40,284.8","-10,000","36,096",3
+General Fund,Economic Development Total,,,,,0,"40,284.8","-10,000","36,096",2
+General Fund,Human Resources,Organizational Development,,,,"23,750","23,750","23,750","23,750",3
+General Fund,Human Resources Total,,,,,"23,750","23,750","23,750","23,750",2
+General Fund,Administration Services,Fleet Management Division,,,,"18,717.14","52,707.92","38,522.6","55,000",3
+General Fund,Administration Services,Community Relations,,,,0,0,"56,247.94","79,060",3
+General Fund,Administration Services Total,,,,,"18,717.14","52,707.92",94770.54000000001,"134,060",2
+General Fund,Police,Criminal Investigations Div,,,,"257,542.82","265,269.4","198,649.84","202,000",3
+General Fund,Police,Police Support Division,,,,"83,408.44","105,177.03","122,956.5","106,900",3
+General Fund,Police,Police Administration Division,,,,"30,511.25","41,528.89","19,959.91","25,600",3
+General Fund,Police,Patrol Division,,,,"11,567.5",264.16,"7,040","468,140",3
+General Fund,Police Total,,,,,"383,030.01",412239.48000000004,"348,606.25","802,640",2
+General Fund Total,,,,,,7.962751963999996E7,8.233473235999998E7,8.547388464999996E7,1E+08,1
+REVENUES TOTAL,,,,,,1.2108848981999996E8,1.2868459671000002E8,1.3375439192999996E8,2E+08,0

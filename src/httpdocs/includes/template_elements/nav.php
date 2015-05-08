@@ -2,13 +2,13 @@
   <li>
     <a href="/Visual-Town-Budget/expenses">
       <img src="/Visual-Town-Budget/img/money-icon.png" alt='bulb icon'/>
-      Explore the Budget
+      Budget Explorer
     </a>
   </li>
   <li>
     <a href="/Visual-Town-Budget/whatsnew">
       <img src="/Visual-Town-Budget/img/bulb-icon.png" alt='bulb icon'/>
-      Tell Me What's New 
+      New in FY2016 
     </a>
   </li>
   <li>

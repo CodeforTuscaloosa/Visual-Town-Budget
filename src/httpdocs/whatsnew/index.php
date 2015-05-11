@@ -34,7 +34,6 @@
 </head>
 
 <body class="whatsnew">
-  <!-- <img src="splash/images/background.jpg" class="background-image" alt="background image" /> -->
   <div class='header-container'>
     <?php include '../includes/template_elements/top-bar.php'; ?>     
   </div>
@@ -200,32 +199,22 @@
     </div>
   </div>    
   <div class="container wrapper">
-    <div class="row">
+    <div class="row span6">
 <!--      <div class="span3"> -->
       <div class="row">
         <div class="well">
           <div>
-            <h1>Explore The Top Budget Changes Compared To Last Year</h1>
+            <h2>Explore The Top Budget Changes Compared To Last Year</h2>
           </div>
-          <div id="mainFlow" class="interactionPanel" style="">
-	    <br/>
-	    <p style="margin:0 0 0 0;">
-	      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-
-	      <span id="selectText" class="labelText">Select Fund:</span><span>&nbsp;&nbsp;</span>
-	      <select id="categorySelector" onchange="buttonClick('next')">
-		<option>---</option>
-	      </select>
-	      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-	      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-	      <input id="radio1" type="radio" checked name="showRev" value="true" onclick="showRevHandler()">&nbsp;Revenues &nbsp;&nbsp;
-	      <input id="radio2" type="radio" name="showRev" value="false" onclick="showRevHandler()"> &nbsp; Expenses
-	      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
-	      <input id="viewBySelector" style="vertical-align:middle; float:right;" type="button" value="View By Account" onclick="buttonClick('account')"/>
-	    </p>
-	    <p style="margin:0 0 0 0;">
-	      <input id="startOver" style="vertical-align:middle; float:right;" type="button" value="Start Over" onclick="buttonClick('reset')"/>
-	    </p>
+          <div id="mainFlow" class="interactionPanel">
+	          <span id="selectText" class="labelText">Select Fund:</span>
+	          <select id="categorySelector" onchange="buttonClick('next')">
+          		<option>---</option>
+          	</select>
+	          <input id="radio1" type="radio" checked name="showRev" value="true" onclick="showRevHandler()"> Revenues
+	          <input id="radio2" type="radio" name="showRev" value="false" onclick="showRevHandler()"> Expenses
+	          <input id="viewBySelector" style="vertical-align:middle; float:right;" type="button" value="View By Account" onclick="buttonClick('account')"/>
+	          <input id="startOver" style="vertical-align:middle; float:right;" type="button" value="Start Over" onclick="buttonClick('reset')"/>
           </div> 
         </div>          
       </div>
@@ -234,6 +223,36 @@
         <svg class="chart span12" id="chart" width="700" height="470"></svg>
       </div>
     </div>
+    <div class="row span5">
+      <ul class="highlights">
+        <li>
+          <h3>FY16 Budget Priorities</h3>
+          <ul>
+            <li>Ensure the long-term financial sustainability and financial strength of our general governmental operations and enterprises</li>
+            <li>Invest in our outstanding workforce with competitive compensation and benefit level</li>
+            <li>Respond to community growth and increasing demands for our core services</li>
+            <li>Continue our investment in capital facilities, roads, pipes and technology infrastructure</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Revenue Highlights</h3>
+          <ul>
+            <li>Sales tax revenue is estimated to increase 4%</li>
+            <li>Development revenues are projected to increase 3% from increasing permits and economic development activity</li>
+            <li>Parks bond approved in the November 2014 referendum increases the tax rate by 1.72 cents per $100 of tax valuation</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Expenditure Highlights</h3>
+          <ul>
+            <li>4% overall increase compared to the FY15 Adopted Budget</li>
+            <li>New or expanded facilities opening in FY16 include Central Communications Center, Central Operations Facility, Abbotts Creek Park and MLK Jr. Memorial Gardens</li>
+            <li>Increases staffing to address growth and development demands in core service areas</li>
+            <li>Competitive compensation increase in line with national trends</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
   <script>
     <!-- Fund,Department,Division,Account,Amount, -->
@@ -241,10 +260,6 @@
   </script>
   <?php include '../includes/template_elements/footer.php'; ?>
 </body>
-</html>
-
-
-<!-- SLIDER -->
 <script type="text/javascript">
 $('document').ready(function(){
   $('.flexslider').flexslider({
@@ -259,5 +274,4 @@ $('document').ready(function(){
   });
 });
 </script>
-
 </html>

@@ -351,7 +351,7 @@ p{
 .header-area h1{
   text-align: right;
   margin-top: 0px;
-  font-weight: lighter;
+  font-weight: normal;
   padding: 20px 20px 10px 0px;
   /*border-right: 1px solid #fff;*/
   font-size: 2em;

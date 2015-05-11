@@ -10,8 +10,12 @@
             <a href="http://www.raleighnc.gov" target="_blank">
               The City of Raleigh
             </a>
-            <span>&</span>
-            <a href="http://www.codeforasheville.org/" target="_blank">
+            <span>, </span>
+            <a href="http://www.codeforraleigh.com" target="_blank">
+              Code for Raleigh
+            </a>
+             <span>, &</span>
+             <a href="http://www.codeforasheville.org/" target="_blank">
               Code for Asheville
             </a>
           </div>

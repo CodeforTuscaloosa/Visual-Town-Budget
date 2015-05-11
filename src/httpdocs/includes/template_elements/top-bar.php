@@ -14,8 +14,6 @@
           <?php include 'nav.php'; ?>
         </div>
       </div>                          
-    </div>
-    <div class="square">
-    </div>          
+    </div>       
   </div>
 </div>

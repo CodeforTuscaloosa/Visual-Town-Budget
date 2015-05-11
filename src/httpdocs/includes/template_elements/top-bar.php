@@ -4,8 +4,8 @@
       <div class="span3">
         <h1>
           <a href="/Visual-Town-Budget/expenses">
-            City of Raleigh Budget
-            2015-2016
+            <span class="raleigh">City of Raleigh</span><br/> 
+            Budget 2015-2016
           </a>
         </h1>
       </div>

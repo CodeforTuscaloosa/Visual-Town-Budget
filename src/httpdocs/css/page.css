@@ -629,3 +629,6 @@ body.show-me-the-money #avb-wrap{
 .raleigh {
   font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
 }
+.slider {display:none;}
+.alpha img {float:left; margin-right:1em;}
+.highlights > li {list-style-type: none;}

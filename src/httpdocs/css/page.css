@@ -9,7 +9,7 @@
   float:right;
   /*text-align: right;*/
   margin-top: 20px;
-  /*border-top: 1px solid white;*/
+  /*border-top: 1px solid #fff;*/
 }
 
 .nav > li{
@@ -17,19 +17,19 @@
 }
 
 .nav > li > a{
-  color:white;
+  color:#fff;
   text-decoration: none;
   padding: 5px;
 }
 
-.nav > li > a:hover{
+.nav > li > a:hover, .show-me-the-money #BE, .whatsnew #WN, .capitalimprovements #CI{
   background: #333;
-  color: white !important;
+  color: #fff;
 }
 
 
 #yeardrop .menubutton a:hover{
-  color: white !important;
+  color: #fff !important;
 }
 
 .nav > li > a img{
@@ -74,11 +74,6 @@
   z-index: 1000;
 }
 
-.show-me-the-money .square,
-.show-me-the-money .header{
-  background: #72BF00;
-}
-
 .about .square, 
 .about .header{
   background: #A58A6A;
@@ -88,14 +83,6 @@
 .other .header{
   background: #41A7BF;
 }
-
-.message .square, 
-.message .header,
-.whatsnew .square, 
-.whatsnew .header{
-  background: #7DA8CC;
-}
-
 
 .background-image{
   position:fixed;
@@ -107,7 +94,7 @@
   position:relative;
 }
 .rounded-border{
-  border: 2px solid white;
+  border: 2px solid #fff;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -134,7 +121,7 @@
 .datasets li a, .ideas li a{
   margin-bottom: 10px;
   padding:10px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; 
@@ -148,13 +135,13 @@
 }
 .datasets li a:hover, .ideas li a:hover{
   text-decoration: none;
-  background: white;
+  background: #fff;
   color: #7DA8CC;
 }
 /*FANCY BUTTONS*/
 .border-button{
   padding:10px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; 
@@ -168,7 +155,7 @@
 }
 .border-button:hover{
   text-decoration: none;
-  background: white;
+  background: #fff;
   color: #7DA8CC;
 }
 .arrow-button{
@@ -178,23 +165,23 @@
   padding: 10px 20px 10px 10px;
   display:inline-block;
   text-decoration: none !important;
-  color: white;
+  color: #fff;
   /*font-weight:lighter;*/
   -webkit-transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
   -ms-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
   transition: all .2s ease-out;
-  color: white !important;      
+  color: #fff !important;      
 }
 .arrow-button:hover{
-  color: white;
+  color: #fff;
   margin-left:10px;
 }
 
 /*FULL BLEEDS*/
 .full-bleed{
-  color: white !important;
+  color: #fff !important;
   padding: 30px 0px;
   position:relative;
 }
@@ -220,10 +207,10 @@
   background: #F08B27;
 } 
 .full-bleed h3, .full-bleed h4, .full-bleed h5, .full-bleed a{
-  color: white;
+  color: #fff;
 }
 .full-bleed p{
-  color: white;
+  color: #fff;
   font-size: 1.2em;
   line-height: 1.5em;
 } 
@@ -237,7 +224,7 @@
 .full-bleed .link-list li{
   list-style-type: none;
   /*margin-bottom: 5px;*/
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
   padding:10px 0px;
 }
 .logo{
@@ -364,21 +351,21 @@ p{
 .header-area h1{
   text-align: right;
   margin-top: 0px;
-  font-weight: lighter;
+  font-weight: normal;
   padding: 20px 20px 10px 0px;
-  /*border-right: 1px solid white;*/
+  /*border-right: 1px solid #fff;*/
   font-size: 2em;
   margin-bottom: 0px;
 }
 
 .header-area h1 a{
   font-size: 1em;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
 .header-area h1, .header-area p, .header-area{
-  color: white;
+  color: #fff;
 }
 .header-area a{
   font-size: 1.2em;
@@ -394,15 +381,15 @@ div.footer-container{
 div.header-container{
   /*padding-top: 20px;*/
   /*background: #333;*/
-  background: rgba(0, 0, 0, .7);
+  background: #5784D5;
   width: 100%;
 }
 .footer-container h2{
-  color: white;
+  color: #fff;
 }
 .sponsor-list li{
   display: inline-block;
-  background: white;
+  background: #fff;
   float: left;
   padding: 10px;
   margin-right: 20px;
@@ -507,7 +494,7 @@ div.header-container{
 
 .nav-active{
   background: #333;
-  color: white;
+  color: #fff;
 }
 
 
@@ -547,7 +534,7 @@ div.header-container{
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 .slide-overlay h2, .slide-overlay p, .slide-overlay a{
-  color: white;
+  color: #fff;
 }
 
 .slides li .slide-overlay h2{
@@ -562,15 +549,16 @@ div.header-container{
 .slides li .slide-overlay > div{
   padding: 20px 30px 30px 30px;
   background: #666;
-  color:white;        
+  color:#fff;        
 }
 body > br{
   display:none;
 }
 .header h1{
-    color:white !important;
+    color:#fff !important;
     margin:0px;
     margin:auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 .header{
   /*text-align: center;*/
@@ -640,3 +628,9 @@ body.show-me-the-money #avb-wrap{
   min-width: 870px;
 }
 
+.raleigh {
+  font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+}
+.slider {display:none;}
+.alpha img {float:left; margin-right:1em;}
+.highlights > li {list-style-type: none;}

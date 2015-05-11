@@ -543,6 +543,8 @@ div.header-container{
   width: 50%;
   top:110px;
   right:10%;
+  opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 .slide-overlay h2, .slide-overlay p, .slide-overlay a{
   color: white;

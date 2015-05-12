@@ -53,11 +53,8 @@
             		<li>Continue our investment in capital facilities, roads, pipes and technology infrastructure</li>
 		  </ul>
                 </p>
-                <a href="../docs/City_Council_budget_goals.pdf" target="_blank" class="border-button">
-                  Read budget goal details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>
@@ -74,11 +71,8 @@
 	            <li>Parks bond approved in the November 2014 referendum increases the tax rate by 1.72 cents per $100 of tax valuation</li>
 		  </ul>
                 </p>
-                <a href="../docs/Revenue_summary_detail.pdf" target="_blank" class="border-button">
-		  Read revenue details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>
@@ -96,11 +90,8 @@
             		<li>Competitive compensation increase in line with national trends</li>
 		  </ul>
                 </p>
-                <a href="../docs/Expenditure_summary_detail.pdf" target="_blank" class="border-button">
-		  Read expenditure details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>
@@ -118,11 +109,8 @@
 		  	<li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
 		  </ul>
                 </p>
-                <a href="../docs/Capital_Investment_Program.pdf" target="_blank" class="border-button">
-		  Read capital improvements details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>

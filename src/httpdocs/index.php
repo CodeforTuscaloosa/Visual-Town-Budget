@@ -13,7 +13,7 @@
     <script>
     $(document).ready(initialize);
     </script>
-    <link href="css/page.css" rel="stylesheet" type="text/css" />
+    <link href="/Visual-Town-Budget/css/page.css" rel="stylesheet" type="text/css" />
     <style type='text/css'>
 
     </style> 

@@ -22,7 +22,7 @@
         </div>
         <!-- FOOTER COLUMN 2 --> 
         <div class='span4 omega feedback'>
-      	  <a class="border-button" href=""><img src="/Visual-Town-Budget/img/feedback-icon.png" alt="1feedback icon"/> <h4>Give Feedback</h4></a>
+      	  <a class="border-button" href=""><h4><span class="icons-like"></span> Give Feedback</h4></a>
       	</div>
        <!-- FOOTER COLUMN 3 -->
         <div class='span4'>

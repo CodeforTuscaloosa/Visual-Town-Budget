@@ -25,6 +25,32 @@ NOTE: THIS FILE IS GENERATED VIA SASS - DO NOT EDIT THIS DIRECTLY!
 *	Page
 */
 /* line 44, ../../scss/partials/_base.scss */
+
+/*svg hack thor*/
+
+/*
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ *
+ * [1] IE9
+ * [2] IE10+
+ */
+/* 1 */
+.ie9 img[src*=".svg"] {
+  width: 100%; 
+}
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src*=".svg"] {
+    width: 100%; 
+  }
+}
+
+
+
+
+
+
+
 html {
   min-height: 100%;
   position: relative;
@@ -37,7 +63,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-image: url(../../img/bg_avb.png);
+  background-image: url("/Visual-Town-Budget/img/bg_avb.png");
   height: 100%;
 }
 
@@ -225,7 +251,7 @@ p {
 
 /* line 15, ../../scss/partials/_home.scss */
 #avb-home {
-  background-image: url(/img/bg_avb.png);
+  background-image: url("/Visual-Town-Budget/img/bg_avb.png");
   z-index: 1010;
   border-bottom: 2px solid #d63366;
   display: none;

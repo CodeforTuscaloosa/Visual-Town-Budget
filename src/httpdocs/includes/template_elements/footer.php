@@ -15,7 +15,7 @@
           <a href="http://www.codeforraleigh.com" target="_blank">
             Code for Raleigh
           </a>
-           <span>, &amp;</span>
+           <span>&amp;</span>
            <a href="http://www.codeforasheville.org/" target="_blank">
             Code for Asheville
           </a>

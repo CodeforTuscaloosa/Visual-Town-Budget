@@ -53,11 +53,8 @@
             		<li>Continue our investment in capital facilities, roads, pipes and technology infrastructure</li>
 		  </ul>
                 </p>
-                <a href="../docs/City_Council_budget_goals.pdf" target="_blank" class="border-button">
-                  Read budget goal details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>
@@ -74,11 +71,8 @@
 	            <li>Parks bond approved in the November 2014 referendum increases the tax rate by 1.72 cents per $100 of tax valuation</li>
 		  </ul>
                 </p>
-                <a href="../docs/Revenue_summary_detail.pdf" target="_blank" class="border-button">
-		  Read revenue details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>
@@ -96,57 +90,8 @@
             		<li>Competitive compensation increase in line with national trends</li>
 		  </ul>
                 </p>
-                <a href="../docs/Expenditure_summary_detail.pdf" target="_blank" class="border-button">
-		  Read expenditure details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
-                </a>
-              </div>
-            </div>
-        </li>
-        <li>
-          <img src="/Visual-Town-Budget/img/slides/slide4.jpg" />
-            <div class="slide-overlay">
-              <div>
-                <h2>Staffing Highlights</h2>
-                <p>
-		  <ul>
-		    <li>Additional X FTE positions are budgeted for FY 2015-16 budget</li>
-		    <li>Otherwise position counts are unchanged</li>
-		    <li>Cost of Living increase of 3% for existing staff </li>
-		  </ul>
-                </p>
-                <a href="../docs/Staffing_summary_detail.pdf" target="_blank" class="border-button">
-		  Read staffing details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
-                </a>
-              </div>
-            </div>
-        </li>
-
-        <li>
-          <img src="/Visual-Town-Budget/img/slides/slide5.jpg" />
-            <div class="slide-overlay">
-              <div>
-                <h2>Budget Highlights By Fund</h2>
-                <p>
-		  <ul>
-		    <li>General: Expenditures up 3.8%</li>
-		    <li>Water Resources: Rate adjustments to yield additional $460,000</li>
-		    <li>Stormwater: Tiered rate structure proposed</li>
-		    <li>Transit Services: Funding proposed for limited Sunday service and Route C improvements</li>
-		    <li>US Cellular Center: Event bookings &amp; operating revenue continue to trend up</li>
-		    <li>Housing Trust: General Fund contribution of $500,000 continues</li>
-		  </ul>
-                </p>
-                <a href="../docs/Funds_Budget_Details.pdf" target="_blank" class="border-button">
-		  Read fund budget details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>
@@ -158,37 +103,14 @@
                 <h2>Capital Improvements</h2>
                 <p>
 		  <ul>
-		    <li>Last year's 3&cent; property tax increase to fund capital investment (2&cent;) and maintenance (1&cent;)</li>
-		    <li>Comprehensive 5 yr capital improvement plan includes $132 Million in projects</li>
-		    <li>Cost offsets of approximately $43 million from outside sources
+		  	<li>The city will invest $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure</li>
+		  	<li>The five-year plan includes $10.3 million to maintain and improve fire stations and police facilities</li>
+		  	<li>Continues long-term funding for street resurfacing, sidewalk repair, traffic lights, and other ongoing infrastructure maintenance</li>
+		  	<li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
 		  </ul>
                 </p>
-                <a href="../docs/Capital_Investment_Program.pdf" target="_blank" class="border-button">
-		  Read capital improvements details
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
-                </a>
-              </div>
-            </div>
-        </li>
-        <li>
-          <img src="/Visual-Town-Budget/img/slides/slide7.jpg" />
-            <div class="slide-overlay">
-              <div>
-                <h2>Changes from the Proposed Budget</h2>
-                <p>
-		  <ul>
-		    <li>2 additional FTE positions funded by the Street Utility Cut Fund</li>
-		    <li>1 additional FTE position in the City Attorney's Office funded by the General Fund</li>
-		    <li>$100,000 reallocation of funds within the Capital Improvement Program to Neighborhood Sidewalk Program
-		  </ul>
-                </p>
-                <a href="../docs/Changes_proposed_adopted.pdf" target="_blank" class="border-button">
-		  Read more about the changes from Proposed to Adopted
-                </a>
-                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
-                  Download full budget
+                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                  Read or Download Budget Details
                 </a>
               </div>
             </div>
@@ -274,3 +196,71 @@ $('document').ready(function(){
 });
 </script>
 </html>
+
+<!--   Other Sliders (Raleigh)  
+        <li>
+          <img src="/Visual-Town-Budget/img/slides/slide4.jpg" />
+            <div class="slide-overlay">
+              <div>
+                <h2>Staffing Highlights</h2>
+                <p>
+		  <ul>
+		    <li>Additional X FTE positions are budgeted for FY 2015-16 budget</li>
+		    <li>Cost of Living increase of X% for existing staff </li>
+		  </ul>
+                </p>
+                <a href="../docs/Staffing_summary_detail.pdf" target="_blank" class="border-button">
+		  Read staffing details
+                </a>
+                <a href="xxx" target="_blank" class="border-button" style="float:right;">
+                  Download full budget
+                </a>
+              </div>
+            </div>
+        </li>
+        <li>
+          <img src="/Visual-Town-Budget/img/slides/slide5.jpg" />
+            <div class="slide-overlay">
+              <div>
+                <h2>Budget Highlights By Fund</h2>
+                <p>
+		  <ul>
+		    <li>General: Expenditures up 3.8%</li>
+		    <li>Water Resources: Rate adjustments to yield additional $460,000</li>
+		    <li>Stormwater: Tiered rate structure proposed</li>
+		    <li>Transit Services: Funding proposed for limited Sunday service and Route C improvements</li>
+		    <li>US Cellular Center: Event bookings &amp; operating revenue continue to trend up</li>
+		    <li>Housing Trust: General Fund contribution of $500,000 continues</li>
+		  </ul>
+                </p>
+                <a href="../docs/Funds_Budget_Details.pdf" target="_blank" class="border-button">
+		  Read fund budget details
+                </a>
+                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
+                  Download full budget
+                </a>
+              </div>
+            </div>
+        </li>
+        <li>
+          <img src="/Visual-Town-Budget/img/slides/slide7.jpg" />
+            <div class="slide-overlay">
+              <div>
+                <h2>Changes from the Proposed Budget</h2>
+                <p>
+		  <ul>
+		    <li>2 additional FTE positions funded by the Street Utility Cut Fund</li>
+		    <li>1 additional FTE position in the City Attorney's Office funded by the General Fund</li>
+		    <li>$100,000 reallocation of funds within the Capital Improvement Program to Neighborhood Sidewalk Program
+		  </ul>
+                </p>
+                <a href="../docs/Changes_proposed_adopted.pdf" target="_blank" class="border-button">
+		  Read more about the changes from Proposed to Adopted
+                </a>
+                <a href="../docs/Adopted_Budget_Rev_2014-15.pdf" target="_blank" class="border-button" style="float:right;">
+                  Download full budget
+                </a>
+              </div>
+            </div>
+        </li>        
+-->

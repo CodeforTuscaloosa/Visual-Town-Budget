@@ -218,9 +218,9 @@
           </div> 
         </div>          
       </div>
-      <div class="interactionPanel span12" style="">
+      <div class="interactionPanel span6" style="">
         <h4 id="contextText" align="center">TBD</h4>
-        <svg class="chart span12" id="chart" width="700" height="470"></svg>
+        <svg class="chart span6" id="chart" width="700" height="470"></svg>
       </div>
     </div>
     <div class="row span5">

@@ -8,7 +8,7 @@
     <?php
        //$dataSections = array('revenues', 'expenses', 'funds');
        $dataSections = array('revenues', 'expenses');
-       require_once '/Visual-Town-Budget/includes/imports.php';
+       require_once 'includes/imports.php';
     ?>
     <script>
     $(document).ready(initialize);
@@ -20,15 +20,15 @@
   </head>
   <body class='show-me-the-money'>
     <div class='header-container'>
-      <?php include '/Visual-Town-Budget/includes/template_elements/top-bar.php'; ?>     
+      <?php include 'includes/template_elements/top-bar.php'; ?>     
     </div>
     <?php
-      require_once '/Visual-Town-Budget/includes/home.php';
-      require_once '/Visual-Town-Budget/includes/navbar.php';
-      require_once '/Visual-Town-Budget/includes/container.php';
-      require_once '/Visual-Town-Budget/includes/footer.php';
-      require_once '/Visual-Town-Budget/includes/templates.php';
-      require_once '/Visual-Town-Budget/includes/datafiles.php';
+      require_once 'includes/home.php';
+      require_once 'includes/navbar.php';
+      require_once 'includes/container.php';
+      require_once 'includes/footer.php';
+      require_once 'includes/templates.php';
+      require_once 'includes/datafiles.php';
     ?>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -39,6 +39,6 @@
       ga('create', 'UA-10273473-12', 'Ashevillevisualbudget.org');
       ga('send', 'pageview');
     </script>
-    <?php include '/Visual-Town-Budget/includes/template_elements/footer.php'; ?>
+    <?php include 'includes/template_elements/footer.php'; ?>
   </body>
 </html>

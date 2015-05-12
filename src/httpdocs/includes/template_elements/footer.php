@@ -22,12 +22,15 @@
         </div>
         <!-- FOOTER COLUMN 2 --> 
         <div class='span4 omega feedback'>
-      	  <a class="border-button" href=""><img src="/Visual-Town-Budget/img/feedback-icon.png" alt="1feedback icon"/> <h4>Give Feedback</h4></a>
-      	</div>
+      	  <a class="border-button" href=""><h4><span class="icons-like"></span> Give Feedback</h4></a>
+          <p>
+            For the People. By the People.<br>Making civic engagement and transparency easy.
+          </p>
+          </div>
        <!-- FOOTER COLUMN 3 -->
-        <div class='span4'>
-          
-        </div>                        
+        <div class='span4 alpha collaboration'>
+      	  <a href="http://www.raleighnc.gov/open"><h4></span>Open Raleigh</h4></a>
+      	</div>
       </div>
     </div>
   </div>

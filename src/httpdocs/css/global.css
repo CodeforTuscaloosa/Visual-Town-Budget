@@ -59,7 +59,6 @@ html {
 /* line 49, ../../scss/partials/_base.scss */
 body {
   color: #333333;
-  font-family: 'Strait', sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
@@ -733,7 +732,6 @@ p {
 #avb-menubar .search {
   border-radius: 5px;
   border: 1px solid #c2c2c2;
-  font-family: 'Strait', sans-serif;
   vertical-align: top;
 }
 

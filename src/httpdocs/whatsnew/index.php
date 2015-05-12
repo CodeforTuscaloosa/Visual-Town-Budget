@@ -47,10 +47,10 @@
                 <h2>City Council Budget Goals For 2015-2016</h2>
                 <p>
 		  <ul>
-		    <li>Employee compensation &amp; managed savings</li>
-		    <li>Police strategic plan</li>
-		    <li>Raleigh redefines transit</li>
-		    <li>Graffiti initiative</li>
+		  	<li>Ensure the long-term financial sustainability and financial strength of our general governmental operations and enterprises</li>
+		  	<li>Invest in our outstanding workforce with competitive compensation and benefit level</li>
+            		<li>Respond to community growth and increasing demands for our core services</li>
+            		<li>Continue our investment in capital facilities, roads, pipes and technology infrastructure</li>
 		  </ul>
                 </p>
                 <a href="../docs/City_Council_budget_goals.pdf" target="_blank" class="border-button">
@@ -69,10 +69,9 @@
                 <h2>Revenue Highlights</h2>
                 <p>
 		  <ul>
-		    <li>Property tax rate to stay at 46&cent; with a projected revenue increase of 0.9%</li>
-		    <li>Sales tax revenue projected to increase 3.4%</li>
-		    <li>License &amp; permit revenues to increase 10%</li>
-		    <li>Planned fund balance appropriation of $2.0 million</li>
+	            <li>Sales tax revenue is estimated to increase 4%</li>
+        	    <li>Development revenues are projected to increase 3% from increasing permits and economic development activity</li>
+	            <li>Parks bond approved in the November 2014 referendum increases the tax rate by 1.72 cents per $100 of tax valuation</li>
 		  </ul>
                 </p>
                 <a href="../docs/Revenue_summary_detail.pdf" target="_blank" class="border-button">
@@ -91,11 +90,10 @@
                 <h2>Expenditure Highlights</h2>
                 <p>
 		  <ul>
-		    <li>1.2% overall decrease compared to the FY 2013-14 budget</li>
-		    <li>Cost of Living increase of 3% </li>
-		    <li>Operating costs are budgeted to increase by 4.1%. </li>
-		    <li>Debt service budget is essentially flat at $12.7 million </li>
-		    <li>Capital outlay is budgeted to decrease by 33.6%</li>
+            		<li>4% overall increase compared to the FY15 Adopted Budget</li>
+            		<li>New or expanded facilities opening in FY16 include Central Communications Center, Central Operations Facility, Abbotts Creek Park and MLK Jr. Memorial Gardens</li>
+            		<li>Increases staffing to address growth and development demands in core service areas</li>
+            		<li>Competitive compensation increase in line with national trends</li>
 		  </ul>
                 </p>
                 <a href="../docs/Expenditure_summary_detail.pdf" target="_blank" class="border-button">

@@ -262,6 +262,7 @@
 $('document').ready(function(){
   $('.flexslider').flexslider({
     animation: "slide",
+    slideshowSpeed: 9000,
     // animationLoop: false,
     // itemWidth: 210,
     // itemMargin: 5,

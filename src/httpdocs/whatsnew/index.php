@@ -46,12 +46,12 @@
               <div>
                 <h2>City Council Budget Goals For 2015-2016</h2>
                 <p>
-		  <ul>
-		  	<li>Ensure the long-term financial sustainability and financial strength of our general governmental operations and enterprises</li>
-		  	<li>Invest in our outstanding workforce with competitive compensation and benefit level</li>
-            		<li>Respond to community growth and increasing demands for our core services</li>
-            		<li>Continue our investment in capital facilities, roads, pipes and technology infrastructure</li>
-		  </ul>
+            		  <ul>
+            		  	<li>Ensure the long-term financial sustainability and financial strength of our general governmental operations and enterprises</li>
+            		  	<li>Invest in our outstanding workforce with competitive compensation and benefit level</li>
+                    <li>Respond to community growth and increasing demands for our core services</li>
+                    <li>Continue our investment in capital facilities, roads, pipes and technology infrastructure</li>
+            		  </ul>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
                   Read or Download Budget Details
@@ -65,11 +65,11 @@
               <div>
                 <h2>Revenue Highlights</h2>
                 <p>
-		  <ul>
-	            <li>Sales tax revenue is estimated to increase 4%</li>
-        	    <li>Development revenues are projected to increase 3% from increasing permits and economic development activity</li>
-	            <li>Parks bond approved in the November 2014 referendum increases the tax rate by 1.72 cents per $100 of tax valuation</li>
-		  </ul>
+            		  <ul>
+            	      <li>Sales tax revenue is estimated to increase 4%</li>
+                    <li>Development revenues are projected to increase 3% from increasing permits and economic development activity</li>
+            	      <li>Parks bond approved in the November 2014 referendum increases the tax rate by 1.72 cents per $100 of tax valuation</li>
+            		  </ul>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
                   Read or Download Budget Details
@@ -83,12 +83,12 @@
               <div>
                 <h2>Expenditure Highlights</h2>
                 <p>
-		  <ul>
-            		<li>4% overall increase compared to the FY15 Adopted Budget</li>
-            		<li>New or expanded facilities opening in FY16 include Central Communications Center, Central Operations Facility, Abbotts Creek Park and MLK Jr. Memorial Gardens</li>
-            		<li>Increases staffing to address growth and development demands in core service areas</li>
-            		<li>Competitive compensation increase in line with national trends</li>
-		  </ul>
+            		  <ul>
+                    <li>4% overall increase compared to the FY15 Adopted Budget</li>
+                    <li>New or expanded facilities opening in FY16 include Central Communications Center, Central Operations Facility, Abbotts Creek Park and MLK Jr. Memorial Gardens</li>
+                    <li>Increases staffing to address growth and development demands in core service areas</li>
+                    <li>Competitive compensation increase in line with national trends</li>
+            		  </ul>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
                   Read or Download Budget Details
@@ -102,12 +102,12 @@
               <div>
                 <h2>Capital Improvements</h2>
                 <p>
-		  <ul>
-		  	<li>The city will invest $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure</li>
-		  	<li>The five-year plan includes $10.3 million to maintain and improve fire stations and police facilities</li>
-		  	<li>Continues long-term funding for street resurfacing, sidewalk repair, traffic lights, and other ongoing infrastructure maintenance</li>
-		  	<li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
-		  </ul>
+            		  <ul>
+            		  	<li>The city will invest $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure</li>
+            		  	<li>The five-year plan includes $10.3 million to maintain and improve fire stations and police facilities</li>
+            		  	<li>Continues long-term funding for street resurfacing, sidewalk repair, traffic lights, and other ongoing infrastructure maintenance</li>
+            		  	<li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
+            		  </ul>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
                   Read or Download Budget Details
@@ -120,9 +120,7 @@
   </div>    
   <div class="container wrapper">
     <div class="row span12">
-    	
-<!--      <div class="span3"> -->
-      <div class="row">
+    	<div class="row">
         <div class="well">
           <div>
             <h2>Explore The Top Budget Changes Compared To Last Year</h2>
@@ -139,7 +137,7 @@
           </div> 
         </div>          
       </div>
-      <div class="interactionPanel span6" style="">
+      <div class="interactionPanel span12" style="">
         <h4 id="contextText" align="center">TBD</h4>
         <svg class="chart span6" id="chart" width="700" height="470"></svg>
       </div>
@@ -186,7 +184,7 @@
 $('document').ready(function(){
   $('.flexslider').flexslider({
     animation: "slide",
-    slideshowSpeed: 9000,
+    slideshowSpeed: 11000,
     // animationLoop: false,
     // itemWidth: 210,
     // itemMargin: 5,

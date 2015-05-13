@@ -588,7 +588,7 @@ body > br{
 /*APP STYLES*/
 #avb-menubar{
   border-top: none !important;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 #avb-menubar, #avb-body{

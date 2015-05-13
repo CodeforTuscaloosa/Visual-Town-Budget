@@ -22,9 +22,9 @@
         </div>
         <!-- FOOTER COLUMN 2 --> 
         <div class='span4 alpha collaboration'>
-      	  <a href="http://www.raleighnc.gov/open"><h4></span>Open Raleigh</h4></a>
+      	  <a href="http://www.raleighnc.gov/open" target="_blank"><h4></span>Open Raleigh</h4></a>
           <p>
-            For the People. By the People.<br>Making civic engagement and transparency easy.
+            For the People. By the People.<br>Making civic engagement easier.
           </p>
           </div>
        <!-- FOOTER COLUMN 3 -->

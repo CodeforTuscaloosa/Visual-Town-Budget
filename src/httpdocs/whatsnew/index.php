@@ -119,7 +119,8 @@
     </div>
   </div>    
   <div class="container wrapper">
-    <div class="row span6">
+    <div class="row span12">
+    	
 <!--      <div class="span3"> -->
       <div class="row">
         <div class="well">
@@ -176,6 +177,7 @@
   </div>
   <script>
     <!-- Fund,Department,Division,Account,Amount, -->
+    
     d3.csv("budgetdiffs.csv", forceAmountType, afterRead);
   </script>
   <?php include '../includes/template_elements/footer.php'; ?>

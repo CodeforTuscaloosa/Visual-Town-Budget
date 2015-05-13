@@ -529,9 +529,10 @@ div.header-container{
   width: 50%;
   top:110px;
   right:10%;
+
   opacity: 0.9;
     filter: alpha(opacity=90); /* For IE8 and earlier */
-}
+
 .slide-overlay h2, .slide-overlay p, .slide-overlay a{
   color: #fff;
 }
@@ -633,6 +634,14 @@ body.show-me-the-money #avb-wrap{
 .highlights {display:none;}
 .alpha img {float:left; margin-right:1em;}
 .highlights > li {list-style-type: none;}
+
+table td {
+  padding:5px;
+  background: #ddd;
+}
+table tr:nth-child(even) td {
+  background:#fff;
+}
 
 @font-face {
 	font-family: 'icomoon';

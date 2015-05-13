@@ -5,7 +5,7 @@
     <title>Raleigh, NC Budget Visualization</title>
     <meta name='description' content='Government budgets can be tough to understand, but now the City of Raleigh, North Carolina is providing the next generation of accessibility in financial information that allows citizens to view, engage, and discuss.'>
     <?php include '../includes/template_elements/resources.php'; ?>
-    <link rel="stylesheet" href="flexslider/flexslider.css">
+    <script src="../js/readmore.js"></script>   
   </head>
   <body class="capitalimprovements">
     <div class='header-container'>
@@ -27,17 +27,11 @@
         </ul>
         <br> 
         * Please note: This map displays only funded and approved projects. Map does not include technology projects and planning studies.
-        </div>
-      </div>
-      <div class="span9">
-  	   <iframe width="100%" height="600" scrolling="no" frameborder="0" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.7884,35.7223,-78.4293,35.8727&amp;home=true&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=false&amp;legend=true&amp;theme=light"></iframe>
-      </div>
-      <div class="span3">
         <h3>Parks and Recreation Projects with Various Locations</h3>
         <table>
           <tr>
-            <td>2014 Bond Projects</td>
-            <td>26,450,000</td>
+            <td><strong>2014 Bond Projects</strong></td>
+            <td><strong>26,450,000<strong></td>
           </tr>
           <tr>
             <td>Aquatic Improvements</td>
@@ -152,12 +146,17 @@
             <td>100,000</td>
           </tr>
           <tr>
-            <td>Grand Total</td>
-            <td>31,340,000</td>
+            <td><strong>Grand Total<strong></td>
+            <td><strong>31,340,000<strong></td>
           </tr> 
         </table>
+        </div>
       </div>
+  	   <iframe width="100%" height="600" scrolling="no" frameborder="0" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.7884,35.7223,-78.4293,35.8727&amp;home=true&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=false&amp;legend=true&amp;theme=light"></iframe>
     </div>
+    <script>
+      $('.well').readmore();
+    </script>
     <?php include '../includes/template_elements/footer.php'; ?>
   </body>
 </html>

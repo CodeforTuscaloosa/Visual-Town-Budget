@@ -4,3 +4,6 @@
 
 .flooignore
 expenses.json
+revenues.json
+expenses.css
+revenues.css

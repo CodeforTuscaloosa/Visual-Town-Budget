@@ -4,7 +4,7 @@
       <div class="span3">
         <h1>
           <a href="/Visual-Town-Budget/expenses">
-            <span class="raleigh">City of Raleigh's <br/> Visual Budget</span>
+            <span class="raleigh">City of Raleigh <br/> Visual Budget</span>
           </a>
         </h1>
       </div>

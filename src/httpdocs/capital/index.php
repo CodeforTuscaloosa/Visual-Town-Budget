@@ -34,7 +34,7 @@
             <td><strong>2014 Bond Projects</strong></td>
             <td><strong>26,450,000<strong></td>
           </tr>
-          <tr>
+          <tr style="padding-left:5px;border-width:1px">
             <td>Aquatic Improvements</td>
             <td>8,000,000</td>
           </tr>

@@ -30,8 +30,8 @@
         <h3>Parks and Recreation Projects with Various Locations</h3>
         <table>
           <tr>
-            <td>2014 Bond Projects</td>
-            <td>26,450,000</td>
+            <td><strong>2014 Bond Projects</strong></td>
+            <td><strong>26,450,000<strong></td>
           </tr>
           <tr>
             <td>Aquatic Improvements</td>
@@ -146,8 +146,8 @@
             <td>100,000</td>
           </tr>
           <tr>
-            <td>Grand Total</td>
-            <td>31,340,000</td>
+            <td><strong>Grand Total<strong></td>
+            <td><strong>31,340,000<strong></td>
           </tr> 
         </table>
         </div>

@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+.floo
+
+.flooignore
+expenses.json
+revenues.json
+expenses.csv
+revenues.csv
+budgetdiffs.csv

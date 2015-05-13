@@ -1,5 +1,13 @@
 /*background image*/
 /*GLOBAL*/
+.fl_r{ width:80%;
+float:right;
+margin-right:10%;
+margin-top:5px;
+margin-bottom:5px;}
+
+
+
 .navigation > .nav{
   margin-bottom: 0px;
   padding-bottom: 20px;

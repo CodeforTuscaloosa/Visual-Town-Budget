@@ -18,6 +18,7 @@
         The capital improvement program (CIP) is a five year plan, approved by City Council, that allocates
         limited financial resources to high priority needs. It is a primary mechanism for implementing the city’s
         long-term vision and strategic plan. The program proposes budgeting <strong>$215.6 million</strong> in capital spending for FY2016, and <strong>$1.04 billion over the next 5 years</strong>. The map below shares details of the CIP projects currently planned based on its location throughout the city.*
+        
         <h3>Highlights</h3>
         <ul>
           <li>The city will invest $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure</li>
@@ -26,7 +27,7 @@
           <li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
         </ul>
         <br> 
-        * Please note: This map displays only funded and approved projects. Map does not include technology projects and planning studies.
+        
         <h3>Parks and Recreation Projects with Various Locations</h3>
         <table>
           <tr>
@@ -151,7 +152,11 @@
           </tr> 
         </table>
         </div>
+        <span class = 'fl_r'>
+          * Please note: This map displays only funded and approved projects. Map does not include technology projects and planning studies.
+        </span>
       </div>
+      
   	   <iframe width="100%" height="600" scrolling="no" frameborder="0" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.7884,35.7223,-78.4293,35.8727&amp;home=true&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=false&amp;legend=true&amp;theme=light"></iframe>
     </div>
     <script>

@@ -632,6 +632,14 @@ body.show-me-the-money #avb-wrap{
 .alpha img {float:left; margin-right:1em;}
 .highlights > li {list-style-type: none;}
 
+table td {
+  padding:5px;
+  background: #ddd;
+}
+table tr:nth-child(even) td {
+  background:#fff;
+}
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('lib/fonts/icomoon.eot?jhnftl');

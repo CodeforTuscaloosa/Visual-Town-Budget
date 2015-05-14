@@ -23,6 +23,34 @@ License:
     See the License for the specific language governing permissions and
     limitations under the License.
 */
+
+// Determine client browser and version
+navigator.sayswho = (function(){
+   var ua= navigator.userAgent, tem,
+   M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+   if(/trident/i.test(M[1])){
+       tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+       return 'IE '+(tem[1] || '');
+   }
+   if(M[1]=== 'Chrome'){
+       tem= ua.match(/\bOPR\/(\d+)/)
+       if(tem!= null) return 'Opera '+tem[1];
+   }
+   M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+   if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+   return M.join(' ');
+})();
+
+// Boolean - is browser IE?
+function ie(){
+   var agent = navigator.sayswho;
+   var reg = /IE\s?(\d+)(?:\.(\d+))?/i;
+   var matches = agent.match(reg);
+   if (matches != null) {
+       return true
+   }
+   return false;
+}
 var avb = avb || {};
 
 avb.treemap = function () {

@@ -394,7 +394,7 @@ $.fn.textfill = function (maxFontSize, targetWidth) {
 *
 *   @return - true when browser is IE
 */
-function ie(){
+/*function ie(){
     var agent = navigator.userAgent;
     var reg = /MSIE\s?(\d+)(?:\.(\d+))?/i;
     var matches = agent.match(reg);
@@ -402,7 +402,7 @@ function ie(){
         return true
     }
     return false;
-}
+}*/
 
 /*
 *   Stops event propagation (on all browsers)

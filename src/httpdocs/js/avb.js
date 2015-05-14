@@ -208,7 +208,7 @@ window.onpopstate = popUrl;
 function pushUrl(section, year, mode, node) {
     if (ie()) return;
     // format URL
-    var url = '/Visual-Town-Budget/' + section + '/' + year + '/' + mode + '/' + node;
+    var url = '/budgetvisualization/' + section + '/' + year + '/' + mode + '/' + node;
     // create history object
     window.history.pushState({
         section: section,

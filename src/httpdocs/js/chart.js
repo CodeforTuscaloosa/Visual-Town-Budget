@@ -276,7 +276,7 @@ avb.chart = function () {
         var xAxis = d3.svg.axis().scale(chart.xscale)
             .orient("bottom").tickSize(0, 0, 0).tickPadding(10)
             .tickFormat(function (d) {
-                return d;
+                return d;                
             });
 
         var yAxis = d3.svg.axis().scale(chart.yscale).ticks(4)

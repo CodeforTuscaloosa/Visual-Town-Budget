@@ -155,9 +155,8 @@
         <span class = 'fl_r'>
           * Please note: This map displays only funded and approved projects. Map does not include technology projects and planning studies.
         </span>
-      </div>
-      
-  	   <iframe width="100%" height="600" scrolling="no" frameborder="0" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.7884,35.7223,-78.4293,35.8727&amp;home=true&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=false&amp;legend=true&amp;theme=light"></iframe>
+      </div>  
+       <iframe width="100%" height="600" frameborder="0" scrolling="no" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.9422,35.6795,-78.2239,35.9802&amp;home=true&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=false&amp;details=true&amp;legend=true&amp;active_panel=details&amp;theme=light"></iframe>
     </div>
     <script>
       $('.well').readmore();

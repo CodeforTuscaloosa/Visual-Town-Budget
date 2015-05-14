@@ -47,103 +47,103 @@
             <td>4,000,000</td>
           </tr>
           <tr>
-            <td>Parks Building Maintenance/Improvement</td>
+            <td class="indent">Parks Building Maintenance/Improvement</td>
             <td>2,025,000</td>
           </tr>
           <tr>
-            <td>ADA Facility Upgrades</td>
+            <td class="indent">ADA Facility Upgrades</td>
             <td>2,000,000</td>
           </tr>
           <tr>
-            <td>Historic Property Improvements</td>
+            <td class="indent">Historic Property Improvements</td>
             <td>1,000,000</td>
           </tr>
           <tr>
-            <td>Neighborhood Connections</td>
+            <td class="indent">Neighborhood Connections</td>
             <td>1,000,000</td>
           </tr>
           <tr>
-            <td>Greenway Acquisition</td>
+            <td class="indent">Greenway Acquisition</td>
             <td>650,000</td>
           </tr>
           <tr>
-            <td>Historic Cemetery Restoration</td>
+            <td class="indent">Historic Cemetery Restoration</td>
             <td>500,000</td>
           </tr>
           <tr>
-            <td>Park Site Acquisition</td>
+            <td class="indent">Park Site Acquisition</td>
             <td>75,000</td>
           </tr>
           <tr>
-            <td>Facility Improvements</td>
-            <td>2,240,000</td>
+            <td><strong>Facility Improvements</strong></td>
+            <td><strong>2,240,000</strong></td>
           </tr>
           <tr>
-            <td>Parks Roof Repairs</td>
+            <td class="indent">Parks Roof Repairs</td>
             <td>770,000</td>
           </tr>
           <tr>
-            <td>Fall Protection</td>
+            <td class="indent">Fall Protection</td>
             <td>750,000</td>
           </tr>
           <tr>
-            <td>Lead Paint Abatement</td>
+            <td class="indent">Lead Paint Abatement</td>
             <td>275,000</td>
           </tr>
           <tr>
-            <td>Parks Irrigation Projects</td>
+            <td class="indent">Parks Irrigation Projects</td>
             <td>250,000</td>
           </tr>
           <tr>
-            <td>Backflow Prevention Upgrade</td>
+            <td class="indent">Backflow Prevention Upgrade</td>
             <td>120,000</td>
           </tr>
           <tr>
-            <td>Reused Water Line Extension</td>
+            <td class="indent">Reused Water Line Extension</td>
             <td>75,000</td>
           </tr>
           <tr>
-            <td>Site Improvements</td>
-            <td>1,525,000</td>
+            <td><strong>Site Improvements</strong></td>
+            <td><strong>1,525,000</strong></td>
           </tr>
           <tr>
-            <td>Park Site Improvements</td>
+            <td class="indent">Park Site Improvements</td>
             <td>550,000</td>
           </tr>
           <tr>
-            <td>Signage - Parks &amp; Greenways</td>
+            <td class="indent">Signage - Parks &amp; Greenways</td>
             <td>400,000</td>
           </tr>
           <tr>
-            <td>Street Tree Replacement</td>
+            <td class="indent">Street Tree Replacement</td>
             <td>250,000</td>
           </tr>
           <tr>
-            <td>Safety Compliance</td>
+            <td class="indent">Safety Compliance</td>
             <td>175,000</td>
           </tr>
           <tr>
-            <td>Volunteerism &amp; Partnership Project</td>
+            <td class="indent">Volunteerism &amp; Partnership Project</td>
             <td>150,000</td>
           </tr>
           <tr>
-            <td>Plans Studies Development</td>
-            <td>1,125,000</td>
+            <td><strong>Plans Studies Development</strong></td>
+            <td><strong>1,125,000</strong></td>
           </tr>
           <tr>
-            <td>Master Plans &amp; Studies</td>
+            <td class="indent">Master Plans &amp; Studies</td>
             <td>650,000</td>
           </tr>
           <tr>
-            <td>PRCR System Plan</td>
+            <td class="indent">PRCR System Plan</td>
             <td>250,000</td>
           </tr>
           <tr>
-            <td>Invasive Plant Study</td>
+            <td class="indent">Invasive Plant Study</td>
             <td>125,000</td>
           </tr>
           <tr>
-            <td>Canine Park</td>
+            <td class="indent">Canine Park</td>
             <td>100,000</td>
           </tr>
           <tr>

@@ -14,7 +14,7 @@
     <script>
     $(document).ready(initialize);
     </script>
-    <link href="/Visual-Town-Budget/css/page.css" rel="stylesheet" type="text/css" />
+    <link href="/budgetvisualization/css/page.css" rel="stylesheet" type="text/css" />
     <style type='text/css'>
 
     </style> 

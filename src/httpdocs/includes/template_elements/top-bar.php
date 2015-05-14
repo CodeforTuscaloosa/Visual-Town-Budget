@@ -3,7 +3,7 @@
     <div class="row header-area">   
       <div class="span3">
         <h1>
-          <a href="/Visual-Town-Budget/expenses">
+          <a href="/budgetvisualization/expenses">
             <span class="raleigh">City of Raleigh <br/> Visual Budget</span>
           </a>
         </h1>

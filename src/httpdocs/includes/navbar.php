@@ -10,11 +10,11 @@
 
     <div id="navbar-links" style="line-height:30px;"> 
 
-     <div onclick='window.location = "/Visual-Town-Budget/expenses"' class="entry homebutton"> City Budget, Visualized </div>
+     <div onclick='window.location = "/budgetvisualization/expenses"' class="entry homebutton"> City Budget, Visualized </div>
 
      <div class="entry navbar-margin">
-        <span class="menubutton section margin" data-section="revenues"><a href="/Visual-Town-Budget/revenues">Revenues</a></span>
-        <span class="menubutton section margin" data-section="expenses"><a href="/Visual-Town-Budget/expenses">Expenses</a></span>
+        <span class="menubutton section margin" data-section="revenues"><a href="/budgetvisualization/revenues">Revenues</a></span>
+        <span class="menubutton section margin" data-section="expenses"><a href="/budgetvisualization/expenses">Expenses</a></span>
 	<span class="menubutton section margin">&nbsp;&nbsp;</span>
 <!--        <span class="menubutton section margin" data-section="funds"><a id="navbar-funds" href="/funds">Funds &#38; Reserves</a></span>-->
     </div>

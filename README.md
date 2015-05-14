@@ -1,10 +1,10 @@
-[![Stories in Ready](https://badge.waffle.io/CORaleigh/Visual-Town-Budget.png?label=ready&title=Ready)](https://waffle.io/CORaleigh/Visual-Town-Budget)
+[![Stories in Ready](https://badge.waffle.io/CORaleigh/budgetvisualization.png?label=ready&title=Ready)](https://waffle.io/CORaleigh/budgetvisualization)
 Budget Visualization Framework
 ======== 
 
 Adapted for Asheville, NC.  
 
-![screenshot](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/example_screenshot.png)
+![screenshot](https://raw.github.com/goinvo/budgetvisualization/develop/docs/img/example_screenshot.png)
 Open-source budget visualization framework.
 
 
@@ -19,23 +19,23 @@ Clone this repository to your local machine and point your webserver root to `sr
 ####Cards
 Report statical information about selected entry (`src/httpdocs/js/cards.js`).
 
-![card-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/cards.png)
+![card-img](https://raw.github.com/goinvo/budgetvisualization/develop/docs/img/cards.png)
 
 ####Chart
 Shows data change over time (`src/httpdocs/js/chart.js`).
 
-![chart-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/chart.png)
+![chart-img](https://raw.github.com/goinvo/budgetvisualization/develop/docs/img/chart.png)
 
 
 ####Treemap
 Used as the main navigation component (`src/httpdocs/js/treemap.js`).
 
-![treemap-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/treemap.png)
+![treemap-img](https://raw.github.com/goinvo/budgetvisualization/develop/docs/img/treemap.png)
 
 ####Table
 Alternative navigation technique to a treemap (`src/httpdocs/js/tables.js`).
 
-![table-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/table.png)
+![table-img](https://raw.github.com/goinvo/budgetvisualization/develop/docs/img/table.png)
 
 ####Component Interface
 Each component implements a common interface of 3 calls:

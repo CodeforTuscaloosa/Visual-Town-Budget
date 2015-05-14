@@ -1,8 +1,8 @@
 /*
 Error: File to import not found or unreadable: compass/css3.
-       Load path: /Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss
-        on line 8 of /Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss/partials/_base.scss
-        from line 7 of /Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss/global.scss
+       Load path: /Users/geyerc/Desktop/git/budgetvisualization/src/scss
+        on line 8 of /Users/geyerc/Desktop/git/budgetvisualization/src/scss/partials/_base.scss
+        from line 7 of /Users/geyerc/Desktop/git/budgetvisualization/src/scss/global.scss
 
 3: 	Author:			Michael Bester
 4: 	Description:	Includes all styles for primary styles for the site.
@@ -17,8 +17,8 @@ Error: File to import not found or unreadable: compass/css3.
 13: @import "partials/table";
 
 Backtrace:
-/Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss/partials/_base.scss:8
-/Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss/global.scss:7
+/Users/geyerc/Desktop/git/budgetvisualization/src/scss/partials/_base.scss:8
+/Users/geyerc/Desktop/git/budgetvisualization/src/scss/global.scss:7
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -69,4 +69,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/css3.\A        Load path: /Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss\A         on line 8 of /Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss/partials/_base.scss\A         from line 7 of /Users/geyerc/Desktop/git/Visual-Town-Budget/src/scss/global.scss\A \A 3: 	Author:			Michael Bester\A 4: 	Description:	Includes all styles for primary styles for the site.\A 5: */\A 6: \A 7: @import \"partials/base\";\A 8: @import \"partials/avb\";\A 9: @import \"partials/home\";\A 10: @import \"partials/chart\";\A 11: @import \"partials/cards\";\A 12: @import \"partials/navbar\";\A 13: @import \"partials/table\";"; }
+  content: "Error: File to import not found or unreadable: compass/css3.\A        Load path: /Users/geyerc/Desktop/git/budgetvisualization/src/scss\A         on line 8 of /Users/geyerc/Desktop/git/budgetvisualization/src/scss/partials/_base.scss\A         from line 7 of /Users/geyerc/Desktop/git/budgetvisualization/src/scss/global.scss\A \A 3: 	Author:			Michael Bester\A 4: 	Description:	Includes all styles for primary styles for the site.\A 5: */\A 6: \A 7: @import \"partials/base\";\A 8: @import \"partials/avb\";\A 9: @import \"partials/home\";\A 10: @import \"partials/chart\";\A 11: @import \"partials/cards\";\A 12: @import \"partials/navbar\";\A 13: @import \"partials/table\";"; }

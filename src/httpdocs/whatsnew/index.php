@@ -174,11 +174,10 @@
       </ul>
     </div>
   </div>
-  <script>
   --> 
 
 <!--Fund,Department,Division,Account,Amount, -->
-    
+  <script>    
     d3.csv("budgetdiffs.csv", forceAmountType, afterRead);
   </script>
   <?php include '../includes/template_elements/footer.php'; ?>

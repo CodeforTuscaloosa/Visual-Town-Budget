@@ -42,18 +42,15 @@ avb.currentNode = {}; // currently selected node
 avb.firstYear = null;
 // last datapoint
 avb.lastYear = null;
-//avb.currentYear = new Date().getFullYear();
-avb.currentYear = 2015;
+avb.currentYear = new Date().getFullYear();
 avb.thisYear = avb.currentYear;
 
 // amount of yearly taxes spent by user
 avb.userContribution = null;
 // available data sections
-avb.sections = ['revenues', 'expenses'];
-// Arlington version:
-//avb.sections = ['revenues', 'expenses', 'funds'];
+avb.sections = ['revenues', 'expenses', 'funds'];
 // available modes (treemap, table..)
-avb.modes = 
+avb.modes =
 {
     "l" : {
         js : avb.table,
@@ -106,7 +103,6 @@ function initialize(){
         avb.navbar.minimize();
     }
 }
-
 /*
 *  Initializes data visualization components
 *
@@ -135,8 +131,6 @@ function initializeVisualizations(params) {
 
     // get user contribution if set
     avb.userContribution = avb.home.getContribution();
-/ * EJ HACK: Don't want to show individual contributions - next line*/
-    avb.userContribution = null;
 
     // set viewing mode
     setMode(params.mode);
@@ -208,7 +202,7 @@ window.onpopstate = popUrl;
 function pushUrl(section, year, mode, node) {
     if (ie()) return;
     // format URL
-    var url = '/budgetvisualization/' + section + '/' + year + '/' + mode + '/' + node;
+    var url = '/' + section + '/' + year + '/' + mode + '/' + node;
     // create history object
     window.history.pushState({
         section: section,
@@ -220,7 +214,7 @@ function pushUrl(section, year, mode, node) {
 
 /*
 *   Restores previous history state
-*   
+*
 *   @param {state obj} event - object containing previous state
 */
 function popUrl(event) {
@@ -291,7 +285,7 @@ function changeYear(year) {
     avb.navigation.open(avb.currentNode.data.hash);
     // remember year over page changes
     $.cookie('year', year, {
-            expires: 2015
+            expires: 14
     });
     // update homepage graph if needed
     if ($('#avb-home').is(":visible")) {
@@ -341,7 +335,7 @@ function mixrgb(rgb1, rgb2, p) {
 
 /*
 *   Mixes RGB color with white to give a transparency effect
-* 
+*
 *   @param {hex color} hex - color to which transparency has to be applied
 *   @param {float} opacity - level of opacity (0.0 - 1.0 scale)
 *   @return {rgba string} - rgba color with new transparency
@@ -360,7 +354,7 @@ function translate(obj, x, y) {
 
 /*
 *  Centers object vertically
-*/ 
+*/
 $.fn.center = function () {
     this.css("margin-top", Math.max(0, $(this).parent().height() - $(this).outerHeight()) / 2);
     return this;
@@ -390,23 +384,8 @@ $.fn.textfill = function (maxFontSize, targetWidth) {
 };
 
 /*
-*   Detects IE browsers
-*
-*   @return - true when browser is IE
-*/
-function ie(){
-    var agent = navigator.userAgent;
-    var reg = /MSIE\s?(\d+)(?:\.(\d+))?/i;
-    var matches = agent.match(reg);
-    if (matches != null) {
-        return true
-    }
-    return false;
-}
-
-/*
 *   Stops event propagation (on all browsers)
-*  
+*
 *   @param {event object} event - event for which propagation has to be stopped
 */
 function stopPropagation(event){

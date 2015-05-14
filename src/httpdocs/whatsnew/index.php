@@ -41,7 +41,7 @@
     <div class="flexslider carousel">
       <ul class="slides">
         <li>
-          <img src="/budgetvisualization/img/slides/slide1.jpg" />
+          <img src="/budgetvisualization/img/slides/slide7.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>City Council Budget Goals For 2015-2016</h2>
@@ -60,7 +60,7 @@
             </div>
         </li>
         <li>
-          <img src="/budgetvisualization/img/slides/slide2.jpg" />
+          <img src="/budgetvisualization/img/slides/slide4.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Revenue Highlights</h2>
@@ -97,7 +97,7 @@
             </div>
         </li>
         <li>
-          <img src="/budgetvisualization/img/slides/slide6.jpg" />
+          <img src="/budgetvisualization/img/slides/slide2.jpg" />
             <div class="slide-overlay">
               <div>
                 <h2>Capital Improvements</h2>
@@ -109,8 +109,8 @@
             		  	<li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
             		  </ul>
                 </p>
-                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
-                  Read or Download Budget Details
+                <a href="/budgetvisualization/capital" target="_blank" class="border-button">
+                  Explore Capital Improvement Plans
                 </a>
               </div>
             </div>
@@ -142,6 +142,7 @@
         <svg class="chart span6" id="chart" width="700" height="470"></svg>
       </div>
     </div>
+    <!-- Potential 2nd column 
     <div class="row span5">
       <ul class="highlights">
         <li>
@@ -174,7 +175,9 @@
     </div>
   </div>
   <script>
-    <!-- Fund,Department,Division,Account,Amount, -->
+  --> 
+
+<!--Fund,Department,Division,Account,Amount, -->
     
     d3.csv("budgetdiffs.csv", forceAmountType, afterRead);
   </script>

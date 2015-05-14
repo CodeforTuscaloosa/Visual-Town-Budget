@@ -637,6 +637,9 @@ table td {
 table tr:nth-child(even) td {
   background:#fff;
 }
+td.indent {
+  padding-left: 25px;
+}
 
 @font-face {
 	font-family: 'icomoon';

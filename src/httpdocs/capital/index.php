@@ -34,16 +34,16 @@
             <td><strong>2014 Bond Projects</strong></td>
             <td><strong>26,450,000<strong></td>
           </tr>
-          <tr style="padding-left:5px;border-width:1px">
-            <td>Aquatic Improvements</td>
+          <tr>
+            <td class="indent">Aquatic Improvements</td>
             <td>8,000,000</td>
           </tr>
           <tr>
-            <td>Greenway Improvements</td>
+            <td class="indent">Greenway Improvements</td>
             <td>7,200,000</td>
           </tr>
           <tr>
-            <td>Park Lighting</td>
+            <td class="indent">Park Lighting</td>
             <td>4,000,000</td>
           </tr>
           <tr>

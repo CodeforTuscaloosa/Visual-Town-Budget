@@ -1,12 +1,10 @@
 /*background image*/
 /*GLOBAL*/
-.fl_r{ width:80%;
-float:right;
-margin-right:10%;
-margin-top:5px;
-margin-bottom:5px;}
-
-
+.fl_r{
+	width:80%;
+	float:right;
+	margin:5px 10% 5px 0;
+}
 
 .navigation > .nav{
   margin-bottom: 0px;
@@ -34,7 +32,6 @@ margin-bottom:5px;}
   background: #333;
   color: #fff;
 }
-
 
 #yeardrop .menubutton a:hover{
   color: #fff !important;
@@ -504,14 +501,6 @@ div.header-container{
   color: #fff;
 }
 
-
-/*SLIDER PAGE SETTINGS*/
-/*SLIDER PAGE SETTINGS*/
-/*SLIDER PAGE SETTINGS*/
-/*SLIDER PAGE SETTINGS*/
-/*SLIDER PAGE SETTINGS*/
-/*SLIDER PAGE SETTINGS*/
-/*SLIDER PAGE SETTINGS*/
 /*SLIDER PAGE SETTINGS*/
 .slider{
   /*margin-top: -100px;*/
@@ -537,9 +526,7 @@ div.header-container{
   width: 50%;
   top:110px;
   right:10%;
-
-  opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
 
 .slide-overlay h2, .slide-overlay p, .slide-overlay a{
   color: #fff;

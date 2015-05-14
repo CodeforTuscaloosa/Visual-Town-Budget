@@ -123,7 +123,7 @@
     	<div class="row">
         <div class="well">
           <div>
-            <h2>Explore The Top Budget Changes Compared To Last Year</h2>
+            <h2>Ten Largest Changes from Last Year's Budget to Proposed FY16 Budget</h2>
           </div>
           <div id="mainFlow" class="interactionPanel">
 	          <span id="selectText" class="labelText">Select Fund:</span>

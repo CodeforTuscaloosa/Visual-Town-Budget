@@ -276,7 +276,13 @@ avb.chart = function () {
         var xAxis = d3.svg.axis().scale(chart.xscale)
             .orient("bottom").tickSize(0, 0, 0).tickPadding(10)
             .tickFormat(function (d) {
-                return d;                
+                //check if float or integer
+                if ( typeof d === "number" && Math.abs( d % 1 ) > 0) {
+                    return '';
+                } else {
+                    //return integer
+                    return d;
+                }
             });
 
         var yAxis = d3.svg.axis().scale(chart.yscale).ticks(4)

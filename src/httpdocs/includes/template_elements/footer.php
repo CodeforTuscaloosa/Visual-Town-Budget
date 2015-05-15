@@ -32,7 +32,7 @@
       	  <a class="border-button" href=""><h4><span class="icons-like"></span> Give Feedback</h4></a>
       	</div>
         <div>  
-          Original open source code by<br?
+          Original open source code by <br>
           <a class="link" target="_blank" href="http://codeforasheville.org/">Code for Asheville</a> 
           and
           <a class="link" target="_blank" href="http://www.goinvo.com">Involution Studios</a>. 

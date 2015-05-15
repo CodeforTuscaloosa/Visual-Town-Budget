@@ -508,7 +508,7 @@ div.header-container{
   z-index:1;
 }
 .slides li{
-  max-height: 500px;
+  max-height: 450px;
   position:relative;
 }
 .slides li .container{
@@ -523,8 +523,8 @@ div.header-container{
   z-index:100;
   position:absolute;
   /*margin: 150px auto;*/
-  width: 50%;
-  top:110px;
+  width: 45%;
+  top:70px;
   right:10%;
 }
 

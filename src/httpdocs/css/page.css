@@ -629,6 +629,9 @@ body.show-me-the-money #avb-wrap{
 .highlights {display:none;}
 .alpha img {float:left; margin-right:1em;}
 .highlights > li {list-style-type: none;}
+.full-bleed h4 {display: inline;}
+#twitter-widget-0 {vertical-align: middle; margin:0 5px 10px;}
+.full-bleed li {list-style-type: none;}
 
 table td {
   padding:5px;
@@ -665,6 +668,9 @@ td.indent {
   width:auto;
   height:auto;
   margin-right: 5px;
+}
+.icons-twitter:before {
+  content: "\ea91";
 }
 .icons-settings:before {
 	content: "\e601";

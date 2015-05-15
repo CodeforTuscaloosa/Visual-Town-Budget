@@ -24,13 +24,29 @@
         <div class='span4 alpha collaboration'>
       	  <a href="http://www.raleighnc.gov/open" target="_blank"><h4></span>Open Raleigh</h4></a>
           <p>
-            For the People. By the People.<br>Making civic engagement easier.
+           Your data. Your Raleigh.<br>Making civic engagement easier.
           </p>
-          </div>
+          <p>
+            <a class="twitter-follow-button"
+              href="https://twitter.com/openraleigh"
+              data-show-count="false"
+              data-size="large">
+              Follow @OpenRaleigh
+              <script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
+          </p>
+        </div>
        <!-- FOOTER COLUMN 3 -->
         <div class='span4 omega feedback'>
       	  <a class="border-button" href=""><h4><span class="icons-like"></span> Give Feedback</h4></a>
       	</div>
+        <div>  
+          Original open source code by<br?
+          <a class="link" target="_blank" href="http://codeforasheville.org/">Code for Asheville</a> 
+          and
+          <a class="link" target="_blank" href="http://www.goinvo.com">Involution Studios</a>. 
+          Our code on
+          <a class="link" target="_blank" href="https://github.com/CORaleigh/visual-town-budget">GitHub</a>
+        </div>
       </div>
     </div>
   </div>

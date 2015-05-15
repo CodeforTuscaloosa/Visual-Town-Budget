@@ -29,14 +29,16 @@
         </div>
        <!-- FOOTER COLUMN 3 -->
         <div> Questions about the budget? <a class="link" target="_blank" href="http://www.raleighnc.gov/government/content/Departments/Articles/BudgetManagement.html"> See the City of Raleigh Office of Budget and Management Services</a>
-        </div>
-       <!-- Optional Visual Feedback Button 
+        </div>           
+        <br>
+  <!-- Optional Visual Feedback Button 
         <div class='span4 omega feedback'>
       	   <a class="border-button" href=""><h4><span class="icons-like"></span> Give Site Feedback</h4></a>
       	</div>
         -->        
         <div>  
           <a class="link" target="_blank" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">Give Site Feedback</a>
+          <br>
           Original open source code by 
           <br>
           <a class="link" target="_blank" href="http://codeforasheville.org/">Code for Asheville</a> 

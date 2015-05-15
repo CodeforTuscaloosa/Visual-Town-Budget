@@ -22,31 +22,20 @@
         </div>
         <!-- FOOTER COLUMN 2 --> 
         <div class='span4 alpha collaboration'>
-      	  <a href="http://www.raleighnc.gov/open" target="_blank"><h4></span>Open Raleigh</h4></a>
-          <p>
-           Your data. Your Raleigh.<br>Making civic engagement easier.
-          </p>
+      	  <a href="http://www.raleighnc.gov/open" target="_blank"><h4>Open Raleigh</h4></a>
+      	  <a href="https://twitter.com/openraleigh" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @openraleigh</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <p>Your data. Your Raleigh.<br>Making civic engagement easier.</p>
         </div>
        <!-- FOOTER COLUMN 3 -->
-        <div> Questions about the budget? <a class="link" target="_blank" href="http://www.raleighnc.gov/government/content/Departments/Articles/BudgetManagement.html"> See the City of Raleigh Office of Budget and Management Services</a>
-        </div>           
-        <br>
-  <!-- Optional Visual Feedback Button 
-        <div class='span4 omega feedback'>
-      	   <a class="border-button" href=""><h4><span class="icons-like"></span> Give Site Feedback</h4></a>
-      	</div>
-        -->        
-        <div>  
-          <a class="link" target="_blank" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">Give Site Feedback</a>
-          <br>
-          Original open source code by 
-          <br>
-          <a class="link" target="_blank" href="http://codeforasheville.org/">Code for Asheville</a> 
-          and
-          <a class="link" target="_blank" href="http://www.goinvo.com">Involution Studios</a>. 
-          <br>
-          Our code on
-          <a class="link" target="_blank" href="https://github.com/CORaleigh/visual-town-budget">GitHub</a>
+        <div class='span4 alpha collaboration'>
+        	<ul>
+        		<li><a target="_blank" href="http://www.raleighnc.gov/government/content/Departments/Articles/BudgetManagement.html">Questions about the budget?</a></li>
+        		<li><a target="_blank" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">Give Site Feedback</a></li>
+        		<li>Original open source code by <br>
+        			<a target="_blank" href="http://codeforasheville.org/">Code for Asheville</a> and <a target="_blank" href="http://www.goinvo.com">Involution Studios</a></li>
+        		<li>Our code on <a target="_blank" href="https://github.com/CORaleigh/visual-town-budget">GitHub</a></li>
+        	</ul>
         </div>
       </div>
     </div>

@@ -665,7 +665,7 @@ p {
 /* line 8, ../../scss/partials/_navbar.scss */
 #avb-menubar {
   font-size: 18px;
-  padding: 15px 5px 15px 5px;
+  /*padding: 15px 5px 15px 5px;*/
   z-index: 1050;
   padding-top: 2px;
   border-top: 2px solid #d63366;
@@ -687,7 +687,7 @@ p {
 }
 /* line 25, ../../scss/partials/_navbar.scss */
 #avb-menubar .navbar-margin {
-  margin-left: 90px;
+  /*margin-left: 90px;*/
 }
 /* line 29, ../../scss/partials/_navbar.scss */
 #avb-menubar .nav {
@@ -732,7 +732,7 @@ p {
 #avb-menubar .search {
   border-radius: 5px;
   border: 1px solid #c2c2c2;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 /*

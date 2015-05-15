@@ -629,6 +629,7 @@ body.show-me-the-money #avb-wrap{
 .full-bleed h4 {display: inline;}
 #twitter-widget-0 {vertical-align: middle; margin:0 5px 10px;}
 .full-bleed li {list-style-type: none;}
+.entry.homebutton {display:none;}
 
 table td {
   padding:5px;

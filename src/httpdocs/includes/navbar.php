@@ -1,5 +1,10 @@
-
+<div class="container wrapper">
+  <div class="well">            
+    2016 data reflects the Proposed Budget. Council has until July 1st to modify and adopt the 2016 budget. 
+  </div>
+</div>  
 <div class="purple-border" id="avb-menubar" >
+
   <div class="container">
 
     <!-- <div class="homebutton" onclick='window.location = "/"'> 

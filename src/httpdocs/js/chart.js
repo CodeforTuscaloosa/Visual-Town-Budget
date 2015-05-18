@@ -501,27 +501,11 @@ avb.chart = function () {
 
         // called at end of drag event
         function dragEnd(e) {
-          function updateTreemapData(year) {
-            changeYear(year);
-            $('#yeardrop-label').html(year + "<b class='caret'></b>");
-          }
 
-          e = d3.event;
-          e.preventDefault();
+            e = d3.event;
 
-          var x;
-
-          // makes event valid for both touch and mouse devices 
-          if (e.type === 'touchmove') {
-            x = e.touches[0].pageX;
-          } else {
-            //solves some IE compatibility issues
-            x = e.offsetX || d3.mouse(this)[0];
-          }
-
-          updateTreemapData(Math.round(chart.xscale.invert(x)));
-
-          mousedown = false;
+            e.preventDefault();
+            mousedown = false;
         };
 
         // hook up all actons

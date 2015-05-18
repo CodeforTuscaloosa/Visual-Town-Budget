@@ -31,6 +31,11 @@
       require_once 'includes/templates.php';
       require_once 'includes/datafiles.php';
     ?>
+     <div class="container wrapper">
+        <div class="well">            
+          2016 data reflects the Proposed Budget. Council has until July 1st to modify and adopt the 2016 budget. 
+        </div>
+      </div>  
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

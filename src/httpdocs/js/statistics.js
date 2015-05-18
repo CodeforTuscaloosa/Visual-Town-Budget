@@ -73,7 +73,7 @@ stats = {
             return '$' + d3.round(avb.userContribution * percentage,2);
  *
  */
-	    return 'Total Spending:' // Replaces user contribution
+	    return 'Total Budget:' // Replaces user contribution
         },
 /*
  * EJ HACK: Don't want to show individual contributions

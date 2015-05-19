@@ -520,9 +520,10 @@ div.header-container{
   z-index:100;
   position:absolute;
   /*margin: 150px auto;*/
-  width: 45%;
-  top:70px;
+  width: 50%;
+  top:20px;
   right:10%;
+  opacity:0.92;
 }
 
 .slide-overlay h2, .slide-overlay p, .slide-overlay a{
@@ -530,7 +531,6 @@ div.header-container{
 }
 
 .slides li .slide-overlay h2{
-  margin-bottom: 20px;
   font-weight:normal;
 }
 .slides li .slide-overlay p{

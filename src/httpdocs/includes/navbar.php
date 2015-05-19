@@ -1,5 +1,5 @@
 <div class="container wrapper">
-  <div class="well" align="center">            
+  <div class="alert alert-warning" align="center">            
     Data in this tool reflects the adopted revenue and expenditure budget data for 2012 through 2015 and proposed budget data for 2016. 
     <br> The tool is in the beta phase, so we welcome you to <a class="link" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">send us your feedback</a>! 
   </div>

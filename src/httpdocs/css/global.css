@@ -230,8 +230,12 @@ p {
 
 /* line 156, ../../scss/partials/_avb.scss */
 #footer {
-  text-align: center;
+ /* text-align: center;*/
   margin-bottom: 5px;
+}
+
+.alert a {
+  color: #c09853;
 }
 
 /*

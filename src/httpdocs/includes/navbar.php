@@ -1,6 +1,6 @@
 <div class="container wrapper">
   <div class="well">            
-    2016 data reflects the Proposed Budget. Council has until July 1st to modify and adopt the 2016 budget. 
+    Data in the tool reflects adopted revenue and expenditure budget data for 2012 through 2015 and proposed budget data for 2016. The tool is in the beta phase; please use the link at the bottom of the page to provide feedback. 
   </div>
 </div>  
 <div class="purple-border" id="avb-menubar" >

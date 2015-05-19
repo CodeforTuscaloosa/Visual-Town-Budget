@@ -1,6 +1,7 @@
 <div class="container wrapper">
-  <div class="well">            
-    Data in the tool reflects adopted revenue and expenditure budget data for 2012 through 2015 and proposed budget data for 2016. The tool is in the beta phase; please use the link at the bottom of the page to provide feedback. 
+  <div class="well" align="center">            
+    Data in this tool reflects the adopted revenue and expenditure budget data for 2012 through 2015 and proposed budget data for 2016. 
+    <br> The tool is in the beta phase, so we welcome you to <a class="link" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">send us your feedback</a>! 
   </div>
 </div>  
 <div class="purple-border" id="avb-menubar" >

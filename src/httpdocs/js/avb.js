@@ -284,7 +284,7 @@ function switchMode(mode, pushurl) {
 function changeYear(year) {
     // don't switch if year is already selected
     if (year === avb.thisYear) return;
-    ga('send', 'event', 'Year', 'Changed', avb.thisYear);
+    ga('send', 'event', 'Year', 'Changed', year);
     // push change to browser history
     pushUrl(avb.section, year, avb.mode, avb.root.hash);
     // set new year values

@@ -294,6 +294,7 @@ function changeYear(year) {
     avb.navigation.update(avb.root);
 
     avb.navigation.open(avb.currentNode.data.hash);
+
     // remember year over page changes
     $.cookie('year', year, {
             expires: 2015

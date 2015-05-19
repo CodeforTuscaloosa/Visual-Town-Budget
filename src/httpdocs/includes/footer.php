@@ -11,7 +11,7 @@
 </div> -->
 
  <div id="footer" class="container">
-  *Source: <a class="link" href="https://data.raleighnc.gov/category/finance">Open Data</a> 
+  *Source: <a class="link" href="https://data.raleighnc.gov/Fiscal-Year-2016-Proposed-to-Council/FY16-Proposed-Expense-Budget/dk9v-sirr">Open Data</a> 
   from the 
   <a class="link" target="_blank" href="http://www.raleighnc.gov/">City of Raleigh</a>. 
   <br>

@@ -46,11 +46,11 @@
               <div>
                 <h2>Budget Themes for 2015-2016</h2>
                 <p>Three themes emerge from the FY16 budget proposal, which are reflective of Raleigh’s dynamic, growing and changing community:
-            		  <ul>
+            		  <ol>
             		  	<li>Increasing service demands resulting from population and development activity growth outpace Raleigh’s projected revenue growth;</li>
             		  	<li>Smart strategies are necessary to align new and existing resources to address the community’s highest priority needs; and</li>
                     <li>Future strategic investments in the areas of economic development, affordable housing, transportation and parks and cultural amenities will further define the city’s character and identity and are critical elements of sustaining Raleigh’s high quality of life in the long term.</li>
-            		  </ul>
+            		  </ol>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
                   Read or Download Budget Details

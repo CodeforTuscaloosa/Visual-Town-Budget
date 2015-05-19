@@ -720,6 +720,9 @@ p {
 #avb-menubar .menubutton a {
   color: #333333;
 }
+#avb-menubar .menubutton a:hover {
+  color:#fff;
+}
 /* line 66, ../../scss/partials/_navbar.scss */
 #avb-menubar .menubutton i {
   vertical-align: baseline;

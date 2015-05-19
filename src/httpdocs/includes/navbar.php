@@ -1,6 +1,6 @@
 <div class="container wrapper">
   <div class="alert alert-warning" align="center">            
-    Data in this tool reflects the <strong>proposed</strong> budget data for 2016 and the <strong>adopted</strong> revenue and expenditure budget data for 2012 through 2015 and  
+    Data in this tool reflects the <strong>proposed</strong> budget data for 2016 and the <strong>adopted</strong> revenue and expenditure budget data for 2012 through 2015.  
     <br> The tool is still in a beta phase of development, so we welcome you to <a class="link" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">send us your feedback</a>! 
   </div>
 </div>  

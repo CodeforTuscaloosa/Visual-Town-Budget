@@ -43,7 +43,7 @@ avb.firstYear = null;
 // last datapoint
 avb.lastYear = null;
 //avb.currentYear = new Date().getFullYear();
-avb.currentYear = 2015;
+avb.currentYear = 2016;
 avb.thisYear = avb.currentYear;
 
 // amount of yearly taxes spent by user
@@ -297,7 +297,7 @@ function changeYear(year) {
 
     // remember year over page changes
     $.cookie('year', year, {
-            expires: 2015
+            expires: 2016
     });
     // update homepage graph if needed
     if ($('#avb-home').is(":visible")) {

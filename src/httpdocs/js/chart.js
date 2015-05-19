@@ -386,6 +386,7 @@ avb.chart = function () {
     toggleLegend = function () {
         // return if action is being repeated
         chart.showLegend = !chart.showLegend;
+        ga('send', 'event', 'Legend', 'Toggled', 'Visible', chart.showLegend);
         // stop any other ongoing transitions
         $('#legend-wrap, #cards').stop();
         // show legend

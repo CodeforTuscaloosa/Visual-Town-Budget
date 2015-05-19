@@ -469,6 +469,7 @@ avb.treemap = function () {
         // zoom button renders parent zone
         if(data !== avb.root) {
             $zoom.click(function () {
+                ga('send', 'event', 'Back Button', 'Clicked');
                 zoneClick.call(parent, d3.select(parent).datum(), true);
             })
         }

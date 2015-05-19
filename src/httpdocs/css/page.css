@@ -701,3 +701,14 @@ td.indent {
   font-size: 1.3em;
   vertical-align: middle;
 }
+
+@media only screen and (max-width:1200px) {
+  .slides li .slide-overlay {width:80%; top:0;}
+}
+
+@media only screen and (max-width:1000px) {
+  .slides li .slide-overlay {position:static; width:100%;}
+  .slides li {max-height:none;}
+  .slides li .slide-overlay > div {padding:20px 40px;}
+  .flex-direction-nav a {top:70%; font-size:0;}
+}

@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title>Raleigh Budget Visualization</title>
     <meta name="description" content="An interactive tool to learn more about the budget of the City of Raleigh, North Carolina." />
+    
     <?php
        //$dataSections = array('revenues', 'expenses', 'funds');
        $dataSections = array('revenues', 'expenses');
@@ -14,10 +15,8 @@
     <script>
     $(document).ready(initialize);
     </script>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="/budgetvisualization/css/page.css" rel="stylesheet" type="text/css" />
-    <style type='text/css'>
-
-    </style> 
   </head>
   <body class='show-me-the-money'>
     <div class='header-container'>

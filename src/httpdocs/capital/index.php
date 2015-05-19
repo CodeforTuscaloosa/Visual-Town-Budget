@@ -17,18 +17,18 @@
         <h3>Capital Improvement Program</h3>
         Proposed by City Council, the capital improvement program (CIP) is a five year plan that allocates
         limited financial resources to high priority needs. It is a primary mechanism for implementing the city’s
-        long-term vision and strategic plan. The program proposes budgeting <strong>$215.6 million</strong> in capital spending for FY2016, and <strong>$1.04 billion</strong> over the next 5 years. The map below shares details of the CIP projects currently planned based on its location throughout the city.*
-        
+        long-term vision and strategic plan. The program proposes budgeting <strong>$215.6 million</strong> in capital spending for FY2016, and <strong>$1.04 billion</strong> over the next 5 years. The FY16 program focuses on the previously deferred maintenance of buildings and infrastructure, primarily for the city’s water and sewer system, transportation, and parks system. The map below shares details of the CIP projects currently planned based on its location throughout the city.*
+
         <h3>Highlights</h3>
-        <ul>
-          <li>The city will invest $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure</li>
-          <li>The five-year plan includes $10.3 million to maintain and improve fire stations and police facilities</li>
-          <li>Continues long-term funding for street resurfacing, sidewalk repair, traffic lights, and other ongoing infrastructure maintenance</li>
-          <li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
-        </ul>
+            <ul>
+             <li>Implements the $92 million bond for parks, recreation, and cultural resources, approved by voters in 2014. Initial projects include the Crabtree Creek West Greenway, Lineberry Neighborhood Park, and Devereau Meadows master planning.</li>
+             <li>Continues implementation of $75 million transportation bond, approved by voters in Fall 2013. The bond program includes several road widenings, as well as funding for streetscapes, traffic calming, and matching funds for NCDOT projects.</li>
+             <li>Invests $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure in public utilities.</li>
+            </ul>
         <br> 
         
-        <h3>Parks and Recreation Projects with Various Locations</h3>
+        <h3>Capital Projects at Various Locations</h3>
+        Some capital projects involve maintenance at multiple facilities throughout the city. These projects primarily fall within the Parks and Recreation element and are not reflected on this map, but are instead shown in the table below.
         <table>
           <tr>
             <td><strong>2014 Bond Projects</strong></td>
@@ -156,7 +156,7 @@
           * Please note: This map displays only funded and approved projects. Map does not include technology projects and planning studies.
         </span>
       </div>  
-        <iframe width="100%" height="600" frameborder="0" scrolling="no" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.869,35.6918,-78.362,35.9624&amp;home=true&amp;zoom=true&amp;scale=false&amp;search=true&amp;searchextent=true&amp;details=true&amp;legend=true&amp;active_panel=legend&amp;theme=light"></iframe>
+        <iframe width="90%" height="600" frameborder="0" scrolling="no" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.869,35.6918,-78.362,35.9624&amp;home=true&amp;zoom=true&amp;scale=false&amp;search=true&amp;searchextent=true&amp;details=true&amp;legend=true&amp;active_panel=legend&amp;theme=light"></iframe>
     </div>
     <script>
       $('.well').readmore();

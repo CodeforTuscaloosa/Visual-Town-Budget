@@ -44,13 +44,12 @@
           <img src="/budgetvisualization/img/slides/slide7.jpg" />
             <div class="slide-overlay">
               <div>
-                <h2>City Council Budget Goals For 2015-2016</h2>
-                <p>
+                <h2>Budget Themes for 2015-2016</h2>
+                <p>Three themes emerge from the FY16 budget proposal, which are reflective of Raleigh’s dynamic, growing and changing community:
             		  <ul>
-            		  	<li>Ensure the long-term financial sustainability and financial strength of our general governmental operations and enterprises</li>
-            		  	<li>Invest in our outstanding workforce with competitive compensation and benefit level</li>
-                    <li>Respond to community growth and increasing demands for our core services</li>
-                    <li>Continue our investment in capital facilities, roads, pipes and technology infrastructure</li>
+            		  	<li>Increasing service demands resulting from population and development activity growth outpace Raleigh’s projected revenue growth;</li>
+            		  	<li>Smart strategies are necessary to align new and existing resources to address the community’s highest priority needs; and</li>
+                    <li>Future strategic investments in the areas of economic development, affordable housing, transportation and parks and cultural amenities will further define the city’s character and identity and are critical elements of sustaining Raleigh’s high quality of life in the long term.</li>
             		  </ul>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
@@ -66,9 +65,11 @@
                 <h2>Revenue Highlights</h2>
                 <p>
             		  <ul>
-            	      <li>Sales tax revenue is estimated to increase 4%</li>
-                    <li>Development revenues are projected to increase 3% from increasing permits and economic development activity</li>
-            	      <li>Parks bond approved in the November 2014 referendum increases the tax rate by 1.72 cents per $100 of tax valuation</li>
+            	      <li>Economic growth increases sales tax $3.3 million (4%), over FY15 projections.</li>
+                    <li>Garbage Fee increases $.75 per month, which increases the percentage of costs recovered through fees from 67% to 72%. Residential customers will pay a combined trash collection and recycling fee of $14.05 monthly.</li>
+            	      <li>Public Utilities: 6% increase in water and sewer volumetric rates as well as increases to the water and sewer infrastructure replacement fees. For customers using 5 CCFs of water monthly, this equates to an increase of $3.24 per month.</li>
+                    <li>The property tax rate includes a 1.72 cent increase proposed for implementation of the voter approved 2014 Parks bond referendum.  This tax increase is projected to raise $8.8 million annually.</li>
+                    <li>Loss of business privilege license tax revenue impacts the City’s ability to respond fully to increasing service demands from community and development activity growth.</li>
             		  </ul>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
@@ -84,10 +85,11 @@
                 <h2>Expenditure Highlights</h2>
                 <p>
             		  <ul>
-                    <li>4% overall increase compared to the FY15 Adopted Budget</li>
-                    <li>New or expanded facilities opening in FY16 include Central Communications Center, Central Operations Facility, Abbotts Creek Park and MLK Jr. Memorial Gardens</li>
-                    <li>Increases staffing to address growth and development demands in core service areas</li>
-                    <li>Competitive compensation increase in line with national trends</li>
+                    <li>Total net operating and capital budget proposed for FY16 is $832.5 million.</li>
+                    <li>$367.9 million net total budget for enterprise funds, including Public Utilities, Stormwater, Transit, Convention Center Complex and Solid Waste Services.</li>
+                    <li>Opens or expands three new facilities:  Abbotts Creek Park, Dr. Martin Luther King, Jr. Memorial Gardens and Phase 1 of the Horseshoe Farm Nature Preserve, offering residents greater access to park, recreation, and cultural amenities in north, northeast, and southeast Raleigh.</li>
+                    <li>Opens the Central Communications Center, which will house multiple public safety and general government functions to ensure the ongoing safety of our residents while providing reliable, secure operations across the organization.</li>
+                    <li>Opens the Central Operations Facility and adds five new positions for additional support of vehicle service and equipment maintenance, reducing staff downtime and improving overall fleet utilization.</li>
             		  </ul>
                 </p>
                 <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
@@ -103,10 +105,10 @@
                 <h2>Capital Improvements</h2>
                 <p>
             		  <ul>
-            		  	<li>The city will invest $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure</li>
-            		  	<li>The five-year plan includes $10.3 million to maintain and improve fire stations and police facilities</li>
-            		  	<li>Continues long-term funding for street resurfacing, sidewalk repair, traffic lights, and other ongoing infrastructure maintenance</li>
-            		  	<li>Funds maintenance and replacement of technology, including $7 million to replace our aging computer-aid dispatch system</li>
+            		  	<li>Totals $1.04 billion over five years; $215.6 million in FY16 focused on deferred maintenance of buildings and infrastructure, primarily for the city’s water and sewer system, transportation, and parks system.</li>
+            		  	<li>Implements the $92 million bond for parks, recreation, and cultural resources, approved by voters in 2014. Initial projects include the Crabtree Creek West Greenway, Lineberry Neighborhood Park, and Devereau Meadows master planning.</li>
+            		  	<li>Continues implementation of $75 million transportation bond, approved by voters in Fall 2013. The bond program includes several road widenings, as well as funding for streetscapes, traffic calming, and matching funds for NCDOT projects.</li>
+            		  	<li>Invests $142.5 million over the next five years to replace aging water and sewer mains and other infrastructure in public utilities.</li>
             		  </ul>
                 </p>
                 <a href="/budgetvisualization/capital" target="_blank" class="border-button">

@@ -234,7 +234,7 @@ avb.treemap = function () {
                 .classed("children", true)
                 // expand when clicked
                 .on("click", function (event) {
-                    _gaq.push(['_trackEvent', 'Treemap', 'Drilldown', d3.select(this).datum().key]);                    
+                    ga('send','event', 'Treemap', 'Drilldown', d3.select(this).datum().key);                    
                     zoneClick.call(this, d3.select(this).datum(), true);
                 })
                 .each(function () {

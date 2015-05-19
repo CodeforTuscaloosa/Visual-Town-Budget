@@ -52,7 +52,7 @@
                     <li>Future strategic investments in the areas of economic development, affordable housing, transportation and parks and cultural amenities will further define the city’s character and identity and are critical elements of sustaining Raleigh’s high quality of life in the long term.</li>
             		  </ol>
                 </p>
-                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                <a href="http://www.raleighnc.gov/content/extra/Books/BudgetManagement/FY2016Budget/#6" target="_blank" class="border-button">
                   Read or Download Budget Details
                 </a>
               </div>
@@ -92,7 +92,7 @@
                     <li>Opens the Central Operations Facility and adds five new positions for additional support of vehicle service and equipment maintenance, reducing staff downtime and improving overall fleet utilization.</li>
             		  </ul>
                 </p>
-                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                <a href="http://www.raleighnc.gov/content/extra/Books/BudgetManagement/FY2016Budget/#6" target="_blank" class="border-button">
                   Read or Download Budget Details
                 </a>
               </div>
@@ -112,7 +112,7 @@
             		  </ul>
                 </p>
                 <a href="/budgetvisualization/capital" target="_blank" class="border-button">
-                  Explore Capital Improvement Plans
+                  Explore Capital Improvement Program
                 </a>
               </div>
             </div>

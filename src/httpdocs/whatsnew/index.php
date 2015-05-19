@@ -72,7 +72,7 @@
                     <li>Loss of business privilege license tax revenue impacts the City’s ability to respond fully to increasing service demands from community and development activity growth.</li>
             		  </ul>
                 </p>
-                <a href="http://www.raleighnc.gov/government/content/BudgetManagement/Articles/BudgetsAndProcess.html" target="_blank" class="border-button">
+                <a href="http://www.raleighnc.gov/content/extra/Books/BudgetManagement/FY2016Budget/#66" target="_blank" class="border-button">
                   Read or Download Budget Details
                 </a>
               </div>

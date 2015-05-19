@@ -249,6 +249,11 @@ function setMode(mode) {
     var $container = $('#avb-wrap');
     mode = mode || "t";
     avb.mode = mode;
+    if (mode === 't') {
+        _gaq.push(['_trackEvent', 'Mode', 'Switched', 'Chart View']);
+    } else if (mode === 'l') {
+        _gaq.push(['_trackEvent', 'Mode', 'Switched', 'Tabular View']);
+    }
     avb.navigation = avb.modes[mode].js;
     $container.html(Mustache.render($(avb.modes[mode].template).html()));
 }
@@ -279,7 +284,7 @@ function switchMode(mode, pushurl) {
 function changeYear(year) {
     // don't switch if year is already selected
     if (year === avb.thisYear) return;
-
+    _gaq.push(['_trackEvent', 'Year', 'Changed', avb.thisYear]);
     // push change to browser history
     pushUrl(avb.section, year, avb.mode, avb.root.hash);
     // set new year values

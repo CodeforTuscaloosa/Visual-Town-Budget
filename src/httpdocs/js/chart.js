@@ -502,6 +502,7 @@ avb.chart = function () {
         // called at end of drag event
         function dragEnd(e) {
           function updateTreemapData(year) {
+            ga('send', 'event', 'Chart', 'Click or Drag', 'Year', year);
             changeYear(year);
             $('#yeardrop-label').html(year + "<b class='caret'></b>");
           }

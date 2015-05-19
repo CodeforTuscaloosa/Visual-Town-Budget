@@ -155,8 +155,8 @@
         <span class = 'fl_r'>
           * Please note: This map displays only projects proposed in the FY16-FY20 CIP. Map does not include technology projects and planning studies.
         </span>
+        <iframe class="border" width="103%" height="600" frameborder="0" scrolling="no" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.869,35.6918,-78.362,35.9624&amp;home=true&amp;zoom=true&amp;scale=false&amp;search=true&amp;searchextent=true&amp;details=true&amp;legend=true&amp;active_panel=legend&amp;theme=light"></iframe>
       </div>  
-        <iframe width="90%" height="600" frameborder="0" scrolling="no" src="http://ral.maps.arcgis.com/apps/Embed/index.html?webmap=1cb47fb4459644baaaf7a141b7792c83&amp;extent=-78.869,35.6918,-78.362,35.9624&amp;home=true&amp;zoom=true&amp;scale=false&amp;search=true&amp;searchextent=true&amp;details=true&amp;legend=true&amp;active_panel=legend&amp;theme=light"></iframe>
     </div>
     <script>
       $('.well').readmore();

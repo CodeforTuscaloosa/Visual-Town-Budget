@@ -597,9 +597,8 @@ body > br{
 }
 
 body.show-me-the-money{
-    background-image: none;
-    min-width: 1200px;
-  }
+    background-image: none; 
+}
 
 body.show-me-the-money #avb-wrap{
   border: 3px solid black;

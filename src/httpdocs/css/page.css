@@ -711,3 +711,8 @@ td.indent {
   .slides li .slide-overlay > div {padding:20px 40px;}
   .flex-direction-nav a {top:70%; font-size:0;}
 }
+
+@media only screen and (max-width:800px) {
+  #chart-wrap {position:static;}
+  #navigation-container, #information-container {height:700px;}
+}

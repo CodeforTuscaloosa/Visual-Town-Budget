@@ -113,113 +113,259 @@ A simple value object is defined by:
 This data structure could be changed should it be considered not ideal for future uses.
 
 ####Data structure sample
-The data sample below is partial section of `src/httpdocs/data/funds.json`.
+The data sample below is partial section of `src/httpdocs/data/expenses.json`.
 ```
 {
-   "key":"Funds",
-   "src":"http://www.arlingtonma.gov/",
-   "hash":"d42b2bb7",
-   "sub":[
-      {
-         "key":"Tip Fee Stabilization Fund",
-         "src":"www.arlin",
-         "hash":"68a317f0",
-         "sub":[],
-         "descr":"The Town of Arlington participated in a regional solid waste consortium, and upon leaving the consortium in September 2005, the Town was entitled to revenue derived from the regional agreement.",
-         "url":"",
-         "values":[
-            {
-               "val":1885012.0,
-               "year":2010
-            },
-            {
-               "val":1010675.0,
-               "year":2011
-            },
-            {
-               "val":562906.0,
-               "year":2012
-            },
-            {
-               "val":164000.0,
-               "year":2013
-            }
-         ]
-      },
-      {
-         "key":"Override Stabilization Fund",
-         "src":"",
-         "hash":"cc5b3ad1",
-         "sub":[],
-         "descr":"This Fund was created as a result of the 2005 Proposition 2 1/2 override. The Town makes annual appropriations to the fund until the time in which it is necessary to make withdrawals for the purposes of balancing the general fund budget.",
-         "url":"",
-         "values":[
-            {
-               "val":1584330.0,
-               "year":2010
-            },
-            {
-               "val":0.0,
-               "year":2011
-            },
-            {
-               "val":3986819.0,
-               "year":2012
-            },
-            {
-               "val":7886125.0,
-               "year":2013
-            }
-         ]
-      },
-      {
-         "key":"Stabilization Fund",
-         "src":"",
-         "hash":"22772b4f",
-         "sub":[],
-         "descr":"In accordance with M.G.L. Ch. 40 S. 5B, the Town may appropriate in any year an amount not exceeding, in the aggregate, 10% of the amount raised in the preceding fiscal year's tax levy.",
-         "url":"",
-         "values":[
-            {
-               "val":2541858.0,
-               "year":2010
-            },
-            {
-               "val":2551951.0,
-               "year":2011
-            },
-            {
-               "val":2558551.0,
-               "year":2012
-            },
-            {
-               "val":2667328.0,
-               "year":2013
-            }
-         ]
-      }
-   ],
-   "descr":"All accounts which hold money from year to year. For more information, see the Glossary.",
-   "url":"",
-   "values":[
-      {
-         "val":8538240.0,
-         "year":2010
-      },
-      {
-         "val":5089098.0,
-         "year":2011
-      },
-      {
-         "val":8423147.0,
-         "year":2012
-      },
-      {
-         "val":18398926.0,
-         "year":2013
-      }
-   ]
-}
+    "key": "Expenses",
+    "src": "",
+    "hash": "13495828",
+    "sub": [
+        {
+            "key": "Watershed Protection Fee Fund",
+            "src": "",
+            "hash": "bdec0635",
+            "sub": [
+                {
+                    "key": "Non-Departmental",
+                    "src": "",
+                    "hash": "71dee769",
+                    "sub": [
+                        {
+                            "key": "Interfund Transfers In/Out",
+                            "src": "",
+                            "hash": "9d0c00df",
+                            "sub": [
+                                {
+                                    "key": "To 320 Water Bond",
+                                    "src": "",
+                                    "hash": "e39fcf89",
+                                    "sub": [],
+                                    "descr": "",
+                                    "url": "",
+                                    "values": [
+                                        {
+                                            "val": 0,
+                                            "year": 2012
+                                        },
+                                        {
+                                            "val": 0,
+                                            "year": 2013
+                                        },
+                                        {
+                                            "val": 0,
+                                            "year": 2014
+                                        },
+                                        {
+                                            "val": 0,
+                                            "year": 2015
+                                        },
+                                        {
+                                            "val": 1500000,
+                                            "year": 2016
+                                        }
+                                    ]
+                                }
+                            ],
+                            "descr": "",
+                            "url": "",
+                            "values": [
+                                {
+                                    "val": 0,
+                                    "year": 2012
+                                },
+                                {
+                                    "val": 0,
+                                    "year": 2013
+                                },
+                                {
+                                    "val": 0,
+                                    "year": 2014
+                                },
+                                {
+                                    "val": 0,
+                                    "year": 2015
+                                },
+                                {
+                                    "val": 1500000,
+                                    "year": 2016
+                                }
+                            ]
+                        }
+                    ],
+                    "descr": "",
+                    "url": "",
+                    "values": [
+                        {
+                            "val": 0,
+                            "year": 2012
+                        },
+                        {
+                            "val": 0,
+                            "year": 2013
+                        },
+                        {
+                            "val": 0,
+                            "year": 2014
+                        },
+                        {
+                            "val": 0,
+                            "year": 2015
+                        },
+                        {
+                            "val": 1500000,
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "descr": "",
+            "url": "",
+            "values": [
+                {
+                    "val": 0,
+                    "year": 2012
+                },
+                {
+                    "val": 0,
+                    "year": 2013
+                },
+                {
+                    "val": 0,
+                    "year": 2014
+                },
+                {
+                    "val": 0,
+                    "year": 2015
+                },
+                {
+                    "val": 1500000,
+                    "year": 2016
+                }
+            ]
+        },
+        {
+            "key": "Water Infrastructure",
+            "src": "",
+            "hash": "da7c1e01",
+            "sub": [
+                {
+                    "key": "Non-Departmental",
+                    "src": "",
+                    "hash": "71dee769",
+                    "sub": [
+                        {
+                            "key": "Interfund Transfers In/Out",
+                            "src": "",
+                            "hash": "9d0c00df",
+                            "sub": [
+                                {
+                                    "key": "To 320 Water Bond",
+                                    "src": "",
+                                    "hash": "e39fcf89",
+                                    "sub": [],
+                                    "descr": "",
+                                    "url": "",
+                                    "values": [
+                                        {
+                                            "val": 0,
+                                            "year": 2012
+                                        },
+                                        {
+                                            "val": 0,
+                                            "year": 2013
+                                        },
+                                        {
+                                            "val": 0,
+                                            "year": 2014
+                                        },
+                                        {
+                                            "val": 2888422,
+                                            "year": 2015
+                                        },
+                                        {
+                                            "val": 3720000,
+                                            "year": 2016
+                                        }
+                                    ]
+                                }
+                            ],
+                            "descr": "",
+                            "url": "",
+                            "values": [
+                                {
+                                    "val": 0,
+                                    "year": 2012
+                                },
+                                {
+                                    "val": 0,
+                                    "year": 2013
+                                },
+                                {
+                                    "val": 0,
+                                    "year": 2014
+                                },
+                                {
+                                    "val": 2888422,
+                                    "year": 2015
+                                },
+                                {
+                                    "val": 3720000,
+                                    "year": 2016
+                                }
+                            ]
+                        }
+                    ],
+                    "descr": "",
+                    "url": "",
+                    "values": [
+                        {
+                            "val": 0,
+                            "year": 2012
+                        },
+                        {
+                            "val": 0,
+                            "year": 2013
+                        },
+                        {
+                            "val": 0,
+                            "year": 2014
+                        },
+                        {
+                            "val": 2888422,
+                            "year": 2015
+                        },
+                        {
+                            "val": 3720000,
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "descr": "",
+            "url": "",
+            "values": [
+                {
+                    "val": 0,
+                    "year": 2012
+                },
+                {
+                    "val": 0,
+                    "year": 2013
+                },
+                {
+                    "val": 0,
+                    "year": 2014
+                },
+                {
+                    "val": 2888422,
+                    "year": 2015
+                },
+                {
+                    "val": 3720000,
+                    "year": 2016
+                }
+            ]
+        }
 ```
 
 ####Data pipeline

@@ -2,7 +2,7 @@
 Budget Visualization Framework
 ======== 
 
-Adapted for Raleigh, NC.  
+Adapted for Raleigh, NC. 
 
 ![screenshot](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/example_screenshot.png)
 Open-source budget visualization framework.

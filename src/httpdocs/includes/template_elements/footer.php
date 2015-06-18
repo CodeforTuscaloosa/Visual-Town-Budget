@@ -20,8 +20,7 @@
        <!-- FOOTER COLUMN 3 -->
         <div class='span4 alpha collaboration'>
         	<ul>
-        		<li><a target="_blank" href="http://www.raleighnc.gov/government/content/Departments/Articles/BudgetManagement.html">Questions about the budget?</a></li>
-        		<li><a target="_blank" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">Give Site Feedback</a></li>
+        		<li><a target="_blank" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">Send us your feedback!</a></li>
         		<li>Original open source code by <br>
         			<a target="_blank" href="http://codeforasheville.org/">Code for Asheville</a> and <a target="_blank" href="http://www.goinvo.com">Involution Studios</a></li>
         		<li>Our code on <a target="_blank" href="https://github.com/CORaleigh/visual-town-budget">GitHub</a></li>

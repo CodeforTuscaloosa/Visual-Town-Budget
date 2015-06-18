@@ -87,8 +87,8 @@
                 <h2>Expenditure Highlights</h2>
                 <p>
             		  <ul>
-                    <li>Total net operating and capital budget proposed for FY16 is $832.5 million.</li>
-                    <li>$367.9 million net total budget for enterprise funds, including Public Utilities, Stormwater, Transit, Convention Center Complex and Solid Waste Services.</li>
+                    <li>Total net operating and capital budget proposed for FY16 is $833.6 million.</li>
+                    <li>$369.1 million net total budget for enterprise funds, including Public Utilities, Stormwater, Transit, Convention Center Complex and Solid Waste Services.</li>
                     <li>Opens or expands three new facilities:  Abbotts Creek Park, Dr. Martin Luther King, Jr. Memorial Gardens and Phase 1 of the Horseshoe Farm Nature Preserve, offering residents greater access to park, recreation, and cultural amenities in north, northeast, and southeast Raleigh.</li>
                     <li>Opens the Central Communications Center, which will house multiple public safety and general government functions to ensure the ongoing safety of our residents while providing reliable, secure operations across the organization.</li>
                     <li>Opens the Central Operations Facility and adds five new positions for additional support of vehicle service and equipment maintenance, reducing staff downtime and improving overall fleet utilization.</li>

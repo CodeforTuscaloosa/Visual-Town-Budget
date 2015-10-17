@@ -31,6 +31,7 @@
       require_once 'includes/datafiles.php';
     ?>
 
+    <!-- Notify the user to upgrade their browser if they're using an old one. -->
     <script> 
     var $buoop = {c:2}; 
     function $buo_f(){ 

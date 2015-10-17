@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <title>Raleigh, NC Budget Visualization</title>
-    <meta name='description' content='Government budgets can be tough to understand, but now the City of Raleigh, North Carolina is providing the next generation of accessibility in financial information that allows citizens to view, engage, and discuss.'>
+    <title>The University of Alabama Budget Visualization</title>
+    <meta name='description' content='University budgets can be tough to understand, but now the University of Alabama in Tuscaloosa is providing the next generation of accessibility in financial information that allows citizens to view, engage, and discuss.'>
     <?php include '../includes/template_elements/resources.php'; ?>
     <script src="../js/readmore.js"></script>   
   </head>

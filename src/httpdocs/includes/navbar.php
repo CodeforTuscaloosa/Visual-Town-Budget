@@ -1,7 +1,7 @@
 <div class="container wrapper">
   <div class="alert alert-warning" align="center">            
-    Data in this tool was updated on June 18, 2015 to reflect the <strong>adopted</strong> revenue and expenditure budget data for Fiscal Year 2016, approved by City Council on June 15, 2015.   
-    <br> The tool is still in a beta phase of development, so we welcome you to <a class="link" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">send us your feedback</a>! 
+    Data in this tool was updated to reflect the <strong>adopted</strong> revenue and expenditure budget data for Fiscal Year 2016, approved by City Council on June 15, 2015.   
+    <br> The tool is still in a beta phase of development, so we welcome you to <a class="link" href="http://goo.gl/forms/Di24tvXhmF">send us your feedback</a>! 
   </div>
 </div>  
 <div class="purple-border" id="avb-menubar" >
@@ -10,13 +10,13 @@
 
     <!-- <div class="homebutton" onclick='window.location = "/"'> 
       
-      <div style="font-size:32px;line-height:28px; display:inline-block"> Asheville, NC  </div>
+      <div style="font-size:32px;line-height:28px; display:inline-block"> The University of Alabama  </div>
       <img src="img/logo@High.png" alt="avb-logo" width=24 height=24 />
    </div> -->
 
     <div id="navbar-links" style="line-height:30px;"> 
 
-     <!-- <div onclick='window.location = "/budgetvisualization/expenses"' class="entry homebutton"> City Budget, Visualized </div>
+     <!-- <div onclick='window.location = "/budgetvisualization/expenses"' class="entry homebutton"> University Budget, Visualized </div>
       -->
      <div class="entry navbar-margin">
         <span class="menubutton section margin" data-section="revenues"><a href="/budgetvisualization/revenues">Revenues</a></span>

@@ -2,9 +2,12 @@
   <div class='container'>
     <div class="footer row">
       <div style="margin: auto; display: block; text-align: center;">
-        <img src="budgetvisualization/img/codefortuscaloosa.png" alt="Code for Tuscaloosa logo" width="100px" />
-        <br><br>
-        <p>Built with  ♥  by <a href="http://codefortuscaloosa.org/" >Code for Tuscaloosa</a></p>
+        <img src="budgetvisualization/img/codefortuscaloosa_white.png" alt="Code for Tuscaloosa logo" width="200px" />
+        <br>
+        <p>Built with  ♥  by <a href="http://codefortuscaloosa.org/" target="_blank" >Code for Tuscaloosa</a>
+        <br>
+        forked from a <a href="http://www.codeforraleigh.com/" target="_blank" >Code for Raleigh</a>
+        <a href="https://github.com/CORaleigh/Visual-Town-Budget" target="_blank" >project</a></p>
       </div>
     </div>
   </div>

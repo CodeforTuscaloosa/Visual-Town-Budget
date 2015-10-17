@@ -3,7 +3,7 @@
     <div class="row header-area">   
       <div class="span9">
         <h1>
-          <a href="/budgetvisualization/expenses">
+          <a href="/">
             <span class="raleigh">University of Alabama Budget Visualization</span>
           </a>
         </h1>

@@ -1,7 +1,6 @@
 <div class="container wrapper">
   <div class="alert alert-warning" align="center">            
-    Data in this tool was updated on June 18, 2015 to reflect the <strong>adopted</strong> revenue and expenditure budget data for Fiscal Year 2016, approved by City Council on June 15, 2015.   
-    <br> The tool is still in a beta phase of development, so we welcome you to <a class="link" href="https://docs.google.com/forms/d/1fZiTbLURyLWOoval69mD5_nHSyAIJTiu9DbcKXKwDbQ/viewform">send us your feedback</a>! 
+    This tool is still in a beta phase of development, so we welcome you to <a class="link" href="mailto:codefortuscaloosa@gmail.com">send us your feedback</a>!
   </div>
 </div>  
 <div class="purple-border" id="avb-menubar" >
@@ -18,12 +17,6 @@
 
      <!-- <div onclick='window.location = "/budgetvisualization/expenses"' class="entry homebutton"> City Budget, Visualized </div>
       -->
-     <div class="entry navbar-margin">
-        <span class="menubutton section margin" data-section="revenues"><a href="/budgetvisualization/revenues">Revenues</a></span>
-        <span class="menubutton section margin" data-section="expenses"><a href="/budgetvisualization/expenses">Expenses</a></span>
-	<span class="menubutton section margin">&nbsp;&nbsp;</span>
-<!--        <span class="menubutton section margin" data-section="funds"><a id="navbar-funds" href="/funds">Funds &#38; Reserves</a></span>-->
-    </div>
 
     <div class="entry" id="navbar-right" style="float:right;">
         <input id="searchbox" type="text" class="margin menubutton margin search" placeholder="Search">

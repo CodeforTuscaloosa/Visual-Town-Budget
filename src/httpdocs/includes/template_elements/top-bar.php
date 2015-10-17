@@ -1,10 +1,10 @@
 <div class="header">
   <div class='container'>
     <div class="row header-area">   
-      <div class="span4">
+      <div class="span9">
         <h1>
           <a href="/budgetvisualization/expenses">
-            <span class="raleigh">University of Alabama <br/> Budget Visualization</span>
+            <span class="raleigh">University of Alabama Budget Visualization</span>
           </a>
         </h1>
       </div>

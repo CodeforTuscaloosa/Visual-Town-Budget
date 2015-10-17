@@ -1,9 +1,9 @@
 <div class="header">
   <div class='container'>
-    <div class="row header-area">   
+    <div class="row header-area">
       <div class="span3">
         <h1>
-          City of Raleigh Budget<br>
+          City of Tuscaloosa Budget<br>
           2015-2016
         </h1>
       </div>
@@ -11,8 +11,8 @@
         <div class="navigation">
           <?php include '../includes/template_elements/nav.php'; ?>
         </div>
-      </div>                          
-    </div>    
+      </div>
+    </div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@
         <a href="#">
           Explore What's Changed
         </a>
-      </li>      
+      </li>
     </ul>
   </li>
   <li class="dropdown">
@@ -48,7 +48,7 @@
         <a href="#">
           See what's changed over time
         </a>
-      </li>           
+      </li>
     </ul>
   </li>
   <li class="dropdown">
@@ -70,7 +70,7 @@
         <a href="#">
           City Organization
         </a>
-      </li>            
+      </li>
     </ul>
   </li>
   <li class="dropdown">
@@ -92,7 +92,7 @@
         <a href="#">
           How you can help
         </a>
-      </li>                  
+      </li>
     </ul>
-  </li>      
+  </li>
 </ul>

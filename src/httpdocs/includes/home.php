@@ -1,5 +1,5 @@
 <div id="overlay">
-    
+
 </div>
 
 <div id="avb-home">
@@ -14,8 +14,7 @@
 
                     <div style="margin-top: 25px;">
                         <div>
-                            University of Alabama students, see where your tax dollars
-                            go:
+                            University of Alabama students, see where your tax dollars go:
                         </div>
 
                         <div style="display:inline-block;">
@@ -39,7 +38,6 @@
                 "display:inline-block; margin-left:5%;">
                     <div>
                         Start learning about the University of Alabama:
-                        
                         <div>
                             <a class='link' data-section="expenses" id='q1'
                             style='color:#db4e86'>What is the annual cost of the Fire Department?</a>

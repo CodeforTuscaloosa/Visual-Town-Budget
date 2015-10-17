@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<p>AVB Excel file format</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">LEVEL1</th>
+<th align="left">LEVEL2</th>
+<th align="left">LEVEL3</th>
+<th align="left">LEVEL4</th>
+<th align="left">LEVEL5</th>
+<th align="left">TOOLTIP</th>
+<th align="left">SOURCE</th>
+<th align="left">SOURCE URL</th>
+<th align="left">2001</th>
+<th align="left">2002</th>
+<th align="left">2003</th>
+<th align="left">etc</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Property Taxes</td>
+<td align="left">General Property Taxes</td>
+<td align="left">Previous Year Limit</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">basis for prop 2.5 increase</td>
+<td align="left">MA tax recap</td>
+<td align="left">http://bit.ly/15eCAMH</td>
+<td align="left">95,000,000</td>
+<td align="left">97,375,000</td>
+<td align="left">99,809,375</td>
+<td align="left">102,304,609</td>
+</tr>
+<tr class="even">
+<td align="left">Property Taxes</td>
+<td align="left">General Property Taxes</td>
+<td align="left">Plus 2.5%</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">additional 2.5% of previous year limit</td>
+<td align="left">MA tax recap</td>
+<td align="left">http://bit.ly/15eCAMH</td>
+<td align="left">2,375,000</td>
+<td align="left">2,434,375</td>
+<td align="left">2,495,234</td>
+<td align="left">2,557,615</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">General Property Taxes Total</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">97,375,000</td>
+<td align="left">99,809,375</td>
+<td align="left">102,304,609</td>
+<td align="left">104,862,225</td>
+</tr>
+<tr class="even">
+<td align="left">Property Taxes</td>
+<td align="left">Overrides</td>
+<td align="left">2002 override</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">5,988,563</td>
+<td align="left">6,138,277</td>
+</tr>
+<tr class="odd">
+<td align="left">Property Taxes</td>
+<td align="left">Overrides</td>
+<td align="left">2008 override</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">Overrides Total</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">5,988,563</td>
+<td align="left">6,138,277</td>
+</tr>
+</tbody>
+</table>
+<p>Financial data will be presented as a single Excel 2007 or 2010 file (.xlsx).</p>
+<p>Each of the three main categories will be in a separate sheet of the single workbook, labeled REVENUES, EXPENSES, FUNDS.</p>
+<p>The general format is based on Excel’s Grouping and Subtotal methods. The top-down breakdown into categories and sub-categories is populated from left-to-right, and each of the levels will include sub-totals calculated in the spreadsheet. Even categories with a single entry will be sub-totaled, and the upload preparation program will remove unnecessary details.</p>
+<p>The number format is whole dollars, with commas separating thousands and millions, and () used to indicate negative numbers. Years will be four digits without commas.</p>
+<p>The top row of each sheet will have the field names and fiscal years. All other rows will include the presentation data.</p>
+<p>The columns are defined as follows:</p>
+<ol style="list-style-type: upper-alpha">
+<li><p>LEVEL1 – the major categories (e.g. Property Taxes, School Budget, Reserve Funds)</p></li>
+<li><p>LEVEL2 – the next level of sub-category detail, with up to 5 breakdown levels</p></li>
+<li><p>LEVEL3</p></li>
+<li><p>LEVEL4</p></li>
+<li><p>LEVEL5</p></li>
+<li><p>TOOLTIP – a short description of the line item, which will be presented as a pop-up “tool tip” when you hover over that item on the graph.</p></li>
+<li><p>SOURCE – where the data came from: Division of Local Services, Auditor’s Report, State tax recap sheets, state cherry sheet, etc.</p></li>
+<li><p>SOURCE URL – link to the data source, including http:// or https://</p></li>
+<li><p>Etc. – the remaining columns are the fiscal years of the data, one column per year</p></li>
+</ol>
+<p>Empty cells will indicate that the item did not exist for those years. For example an override line item will have empty cells before the override took effect. The value zero will indicate that the item existed for that year but had zero value.</p>
+</body>
+</html>

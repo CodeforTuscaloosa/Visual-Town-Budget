@@ -9,13 +9,13 @@
 
     <!-- <div class="homebutton" onclick='window.location = "/"'> 
       
-      <div style="font-size:32px;line-height:28px; display:inline-block"> Asheville, NC  </div>
+      <div style="font-size:32px;line-height:28px; display:inline-block"> The University of Alabama  </div>
       <img src="img/logo@High.png" alt="avb-logo" width=24 height=24 />
    </div> -->
 
     <div id="navbar-links" style="line-height:30px;"> 
 
-     <!-- <div onclick='window.location = "/budgetvisualization/expenses"' class="entry homebutton"> City Budget, Visualized </div>
+     <!-- <div onclick='window.location = "/budgetvisualization/expenses"' class="entry homebutton"> University Budget, Visualized </div>
       -->
 
     <div class="entry" id="navbar-right" style="float:right;">

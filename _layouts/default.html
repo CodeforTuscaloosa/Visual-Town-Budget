@@ -7,29 +7,27 @@
     <title>UA Budget Visualization</title>
     <meta name="description" content="An interactive tool to learn more about the budget of the University of Alabama." />
     
-    <?php
-       //$dataSections = array('revenues', 'expenses', 'funds');
-       $dataSections = array('revenues', 'expenses');
-       require_once 'includes/imports.php';
-    ?>
+    {% include imports.html %}
     <script>
     $(document).ready(initialize);
     </script>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="/budgetvisualization/css/page.css" rel="stylesheet" type="text/css" />
+    <link href="/css/page.css" rel="stylesheet" type="text/css" />
   </head>
   <body class='show-me-the-money'>
     <div class='header-container'>
-      <?php include 'includes/template_elements/top-bar.php'; ?>     
+        {% include top-bar.html %}
     </div>
-    <?php
-      require_once 'includes/home.php';
-      require_once 'includes/navbar.php';
-      require_once 'includes/container.php';
-      require_once 'includes/footer.php';
-      require_once 'includes/templates.php';
-      require_once 'includes/datafiles.php';
-    ?>
+
+    {% include home.html %}
+    {% include navbar.html %}
+    {% include container.html %}
+    {% include notes.html %}
+    {% include treemap-template.html %}
+    {% include card-template.html %}
+    {% include table-header-template.html %}
+    {% include row-template.html %}
+    {% include dropdown-template.html %}
 
     <!-- Notify the user to upgrade their browser if they're using an old one. -->
     <script> 
@@ -42,6 +40,6 @@
     try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
     catch(e){window.attachEvent("onload", $buo_f)}
     </script>     
-    <?php include 'includes/template_elements/footer.php'; ?>
+    {% include footer.html %}
   </body>
 </html>

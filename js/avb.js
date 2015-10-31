@@ -1,3 +1,6 @@
+---
+---
+
 /*
 File: avb.js
 
@@ -49,9 +52,7 @@ avb.thisYear = avb.currentYear;
 // amount of yearly taxes spent by user
 avb.userContribution = null;
 // available data sections
-avb.sections = ['revenues', 'expenses'];
-// Arlington version:
-//avb.sections = ['revenues', 'expenses', 'funds'];
+avb.sections = ['expenses'];
 // available modes (treemap, table..)
 avb.modes = 
 {
@@ -154,12 +155,17 @@ function loadData() {
     // get datasets
     // loads all jsons in data
     $.each(avb.sections, function (i, url) {
-        avb.data[url] = JSON.parse($('#data-' + url).html());
+        if (url === 'expenses') {
+            avb.data[url] = {{ site.data.expenses | jsonify }};
+        } else if (url === 'revenue') {
+            avb.data[url] = {{ site.data.revenue | jsonify }};
+        } else {
+            console.log('unrecognized section type ' + url);
+        }
     });
 
     // initialize root level
     avb.root = avb.data[avb.section];
-
     // inialize year variables based on data
 
     // determine oldest year
@@ -208,7 +214,7 @@ window.onpopstate = popUrl;
 function pushUrl(section, year, mode, node) {
     if (ie()) return;
     // format URL
-    var url = '/budgetvisualization/' + section + '/' + year + '/' + mode + '/' + node;
+    var url = '/' + section + '/' + year + '/' + mode + '/' + node;
     // create history object
     window.history.pushState({
         section: section,

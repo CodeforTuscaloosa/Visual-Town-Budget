@@ -1,39 +1,41 @@
-[![Stories in Ready](https://badge.waffle.io/CORaleigh/Visual-Town-Budget.png?label=ready&title=Ready)](https://waffle.io/CORaleigh/Visual-Town-Budget)
+
+**NOTICE:** As of this writing the data used is still from Raleigh, NC not UA.
+
 Budget Visualization Framework
 ======== 
 
-Adapted for Raleigh, NC. 
+Adapted for The University of Alabama.
 
 ![screenshot](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/example_screenshot.png)
 Open-source budget visualization framework.
 
 
 ##Requirements
-* PHP-enabled webserver
-* SCSS compiler
+* Ruby >= 2.2
+* Jekyll >= 3.0
 
 ##Setup
-Clone this repository to your local machine and point your webserver root to `src/httpdocs`, the application should work out of the box, this repository contains some sample data that can be used for testing.
+Clone this repository to your local machine and run "script/server" on a command line. Then navigate to http://localhost:4000 in a browser. By default Jekyll will rebuild the site whenever files change.
 
 ##Components
 ####Cards
-Report statical information about selected entry (`src/httpdocs/js/cards.js`).
+Report statical information about selected entry (`js/cards.js`).
 
 ![card-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/cards.png)
 
 ####Chart
-Shows data change over time (`src/httpdocs/js/chart.js`).
+Shows data change over time (`js/chart.js`).
 
 ![chart-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/chart.png)
 
 
 ####Treemap
-Used as the main navigation component (`src/httpdocs/js/treemap.js`).
+Used as the main navigation component (`js/treemap.js`).
 
 ![treemap-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/treemap.png)
 
 ####Table
-Alternative navigation technique to a treemap (`src/httpdocs/js/tables.js`).
+Alternative navigation technique to a treemap (`js/tables.js`).
 
 ![table-img](https://raw.github.com/goinvo/Visual-Town-Budget/develop/docs/img/table.png)
 
@@ -45,21 +47,22 @@ Each component implements a common interface of 3 calls:
 * `Update`: refreshes component data (useful when year changes and new values need to be plotted)
 
 ##Directory Structure
-* **/config**: Compass configuration files
-* **/src/httpdocs**: Application root directory
-   *  **css**: compiled SCSS and libraries (bootstrap, introJs)
-   *  **data**: CSV and JSON data files
-      *  **processing**:   temporary directory for data conversion
-         *  `processCSV.py`: converts CSV file to nested JSON structure
-         *  `update.php`: Interface for data update
-   *  **img**: image assets
-   *  **includes**: templates and HTML assets
+* **_config.yml**: Jekyll configuration file
+* **_data**: CSV and JSON data files
+*  **processing**:   temporary directory for data conversion
+    *  `processCSV.py`: converts CSV file to nested JSON structure
+    *  `update.php`: Interface for data update
+*  **css**: compiled SCSS and libraries (bootstrap, introJs)
+*  **img**: image assets
+*  **docs**: documentation
+*  **_layouts/default.html** the HTML layout for the single page
+*  **_includes**: templates and HTML assets
       *  `imports.php`: CSS and JS assets imports
       *  `datafiles.php`: json datafiles loaded in each instance (AJAX can be used as an alternative)
       *  `home.php`: homescreen html
       *  `navbar.php`: navigation bar html
       *  `templates.php`: contains Mustache templates (eg. table row templates, cards...)
-   *  **js**:  Javascript assets
+*  **js**:  Javascript assets
       *  `avb.js`: helper functions and initialization routines
       *  `cards.js`: cards component routines
       *  `chart.js`: chart component routines
@@ -67,7 +70,7 @@ Each component implements a common interface of 3 calls:
       *  `statistics.js`: functions used to generate statistical info and number formatting functions
       *  `table.js`: table component routines
       *  `treemap.js`: treemap component routines
-* **/src/scss**: SCSS files
+* **scss**: SCSS files
    *  `print.scss`:  SCSS applied when printing a Visual Budget page
    *  `global.scss`: main SCSS file (imports all the partials defined below)
    *  **partials**: SCSS assets
@@ -89,9 +92,7 @@ Each component implements a common interface of 3 calls:
 *  Mustache (templates)
 *  IntroJS (required for tutorials)
 
-##Sample Datasets
-Sample `Expenses.json`, `Revenues.json` and `Funds.json` from Arlington, MA in `src/httpdocs/data`.
-
+##Datasets
 Budget data is kept in JSON and CSV format. The JSON format is actively used for computation while the CSV format is kept for reference and data download.
 
 ####Data structure
@@ -113,7 +114,7 @@ A simple value object is defined by:
 This data structure could be changed should it be considered not ideal for future uses.
 
 ####Data structure sample
-The data sample below is partial section of `src/httpdocs/data/expenses.json`.
+The data sample below is a section of `_data/expenses.json`.
 ```
 {
     "key": "Expenses",
@@ -371,14 +372,9 @@ The data sample below is partial section of `src/httpdocs/data/expenses.json`.
 ####Data pipeline
 Town representatives are likely to be proficient in editing spreadsheets. The Visual Budget application currently uses a pipeline that converts CSV files (created with Microsoft Excel) to nested JSON files used for computation.
 
-A python script `src/httpdocs/data/processing/processCSV.py` converts a flat CSV file into the nested JSON structure listed above. A php script `src/httpdocs/data/processing/update.php` orchestrates the entire data update procedure.
+A python script `processing/processCSV.py` converts a flat CSV file into the nested JSON structure listed above. A php script `processing/update.php` orchestrates the entire data update procedure.
 
 For more information about CSV data formats or update procedures check `docs/data`.
-
-## Future upgrades
-*  Decoupling town related assets (budget sections, links, logos, data..) from core visualization techniques
-*  Changing data sections (eg. Replace 'revenues' with 'Town Departments') requires to manually change links (`navbar.php`), homepage data (`home.php`), initialization javascripts (`avb.js`) and update routines (`processCSV.py`, `update.php`). This process should be simplified to allow a simpler migration between different types of data.
-*  Grid space. As of now, although each viz component implements a common interface, each visualization is tied to specific div (or html section), the creation of a 'grid' space that allows any visualization to be 'attached' to any area of the screen and would greatly enhance the customization and upgradability of the application.
 
 ##Core Contributors
 

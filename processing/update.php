@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-  <link type="text/css" rel="stylesheet" href="/css/update.css">
-  <link type="text/css" rel="stylesheet" href="/css/global.css">
-  <script type="text/javascript" src ="/js/lib/jquery/jquery-1.9.1.min.js"></script>
-  <script type="text/javascript" src ="/js/lib/bootstrap-file.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/update.css">
+  <link type="text/css" rel="stylesheet" href="css/global.css">
+  <script type="text/javascript" src ="js/lib/jquery/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src ="js/lib/bootstrap-file.js"></script>
 
 
   <script>

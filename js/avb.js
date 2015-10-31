@@ -155,13 +155,17 @@ function loadData() {
     // get datasets
     // loads all jsons in data
     $.each(avb.sections, function (i, url) {
-        avb.data[url] = {{ site.data.expenses | jsonify }};
-        console.log(avb.data[url]);
+        if (url === 'expenses') {
+            avb.data[url] = {{ site.data.expenses | jsonify }};
+        } else if (url === 'revenue') {
+            avb.data[url] = {{ site.data.revenue | jsonify }};
+        } else {
+            console.log('unrecognized section type ' + url);
+        }
     });
 
     // initialize root level
     avb.root = avb.data[avb.section];
-
     // inialize year variables based on data
 
     // determine oldest year

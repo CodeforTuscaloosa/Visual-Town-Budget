@@ -1,3 +1,6 @@
+---
+---
+
 /*
 File: avb.js
 
@@ -49,9 +52,7 @@ avb.thisYear = avb.currentYear;
 // amount of yearly taxes spent by user
 avb.userContribution = null;
 // available data sections
-avb.sections = ['revenues', 'expenses'];
-// Arlington version:
-//avb.sections = ['revenues', 'expenses', 'funds'];
+avb.sections = ['expenses'];
 // available modes (treemap, table..)
 avb.modes = 
 {
@@ -154,7 +155,8 @@ function loadData() {
     // get datasets
     // loads all jsons in data
     $.each(avb.sections, function (i, url) {
-        avb.data[url] = JSON.parse($('#data-' + url).html());
+        avb.data[url] = {{ site.data.expenses | jsonify }};
+        console.log(avb.data[url]);
     });
 
     // initialize root level

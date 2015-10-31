@@ -3,4 +3,4 @@
 .floo
 .flooignore
 _site/
-serve/
+.jekyll-metadata

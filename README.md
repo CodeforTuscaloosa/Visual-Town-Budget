@@ -47,11 +47,11 @@ Each component implements a common interface of 3 calls:
 * `Update`: refreshes component data (useful when year changes and new values need to be plotted)
 
 ##Directory Structure
-* **_config.yml**: Jekyll configuration file
-* **_data**: CSV and JSON data files
+*  **_config.yml**: Jekyll configuration file
+*  **_data**: CSV and JSON data files
 *  **processing**:   temporary directory for data conversion
-    *  `processCSV.py`: converts CSV file to nested JSON structure
-    *  `update.php`: Interface for data update
+      *  `processCSV.py`: converts CSV file to nested JSON structure
+      *  `update.php`: Interface for data update
 *  **css**: compiled SCSS and libraries (bootstrap, introJs)
 *  **img**: image assets
 *  **docs**: documentation
@@ -70,18 +70,18 @@ Each component implements a common interface of 3 calls:
       *  `statistics.js`: functions used to generate statistical info and number formatting functions
       *  `table.js`: table component routines
       *  `treemap.js`: treemap component routines
-* **scss**: SCSS files
-   *  `print.scss`:  SCSS applied when printing a Visual Budget page
-   *  `global.scss`: main SCSS file (imports all the partials defined below)
-   *  **partials**: SCSS assets
-      *  `_avb.scss`:  section styles
-      *  `_base.scss`: html, body styles, colors and font variables
-      *  `_cards.scss`: styles for card component
-      *  `_chart.scss`: styles for chart component
-      *  `_home.scss`: styles for homescreen
-      *  `_navbar.scss`: styles for top navigation bar
-      *  `_table.scss`: styles for tabular view
-      *  `_treemap.scss`: styles for treemap component
+*  **scss**: SCSS files
+      *  `print.scss`:  SCSS applied when printing a Visual Budget page
+      *  `global.scss`: main SCSS file (imports all the partials defined below)
+      *  **partials**: SCSS assets
+            *  `_avb.scss`:  section styles
+            *  `_base.scss`: html, body styles, colors and font variables
+            *  `_cards.scss`: styles for card component
+            *  `_chart.scss`: styles for chart component
+            *  `_home.scss`: styles for homescreen
+            *  `_navbar.scss`: styles for top navigation bar
+            *  `_table.scss`: styles for tabular view
+            *  `_treemap.scss`: styles for treemap component
 
 ####Required Libraries
 *  Bootstrap (grid layout, dropdowns..)

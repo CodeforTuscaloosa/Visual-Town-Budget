@@ -4,3 +4,4 @@
 .flooignore
 _site/
 .jekyll-metadata
+_data/ua_expenses.csv

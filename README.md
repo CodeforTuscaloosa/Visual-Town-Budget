@@ -74,14 +74,14 @@ Each component implements a common interface of 3 calls:
       *  `print.scss`:  SCSS applied when printing a Visual Budget page
       *  `global.scss`: main SCSS file (imports all the partials defined below)
       *  **partials**: SCSS assets
-            *  `_avb.scss`:  section styles
-            *  `_base.scss`: html, body styles, colors and font variables
-            *  `_cards.scss`: styles for card component
-            *  `_chart.scss`: styles for chart component
-            *  `_home.scss`: styles for homescreen
-            *  `_navbar.scss`: styles for top navigation bar
-            *  `_table.scss`: styles for tabular view
-            *  `_treemap.scss`: styles for treemap component
+           *  `_avb.scss`:  section styles
+           *  `_base.scss`: html, body styles, colors and font variables
+           *  `_cards.scss`: styles for card component
+           *  `_chart.scss`: styles for chart component
+           *  `_home.scss`: styles for homescreen
+           *  `_navbar.scss`: styles for top navigation bar
+           *  `_table.scss`: styles for tabular view
+           *  `_treemap.scss`: styles for treemap component
 
 ####Required Libraries
 *  Bootstrap (grid layout, dropdowns..)

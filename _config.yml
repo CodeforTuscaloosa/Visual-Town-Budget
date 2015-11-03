@@ -1,2 +1,3 @@
 name: UA Budget Visualization
 exclude: [script, processing, docs]
+baseurl: /Visual-UA-Budget

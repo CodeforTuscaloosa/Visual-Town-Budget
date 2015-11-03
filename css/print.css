@@ -1,3 +1,6 @@
+---
+---
+
 /*
 NOTE: THIS FILE IS GENERATED VIA SASS - DO NOT EDIT THIS DIRECTLY! 
 */
@@ -37,7 +40,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-image: url(img/bg_avb.png);
+  background-image: url("{{ site.baseurl }}/img/bg_avb.png");
   height: 100%;
 }
 

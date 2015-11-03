@@ -1,3 +1,6 @@
+---
+---
+
 /*
 	File Overview:	Base scss definitions
 	Authors:		Michael Bester,
@@ -50,7 +53,7 @@ body {
 	color: $black;
 	font-family: sans-serif;
 	@include reset-box-model;
-	background-image: url("img/bg_avb.png");
+	background-image: url("{{ site.baseurl }}/img/bg_avb.png");
  	height: 100%;
 }
 

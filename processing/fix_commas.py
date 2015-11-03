@@ -16,10 +16,11 @@ VALID_AGENCIES = ['THE UNIVERSITY OF ALABAMA', 'UA SYSTEM OFFICE']
 
 number_fixed = 0
 with open('../_data/ua_expenses.csv') as inFile:
-    inFile.readline()
+    column_names = inFile.readline().strip().split(',')[1:]
     reader = csv.reader(inFile)
     with open('../_data/ua_expenses_fixed.csv', 'w') as outFile:
         writer = csv.writer(outFile, quoting=csv.QUOTE_ALL)
+        writer.writerow(column_names)
         for row in reader:
             row_copy = row.copy()
             if len(row_copy) > 13: # unescaped commas in this row
@@ -35,6 +36,7 @@ with open('../_data/ua_expenses.csv') as inFile:
                 for i in range(3,agency_column - 1):
                     row_copy.pop(i)
             if len(row_copy) > 2:
+                row_copy.pop(0)
                 row_copy.pop(len(row_copy) - 1) # delete empty column
                 writer.writerow(row_copy)
 

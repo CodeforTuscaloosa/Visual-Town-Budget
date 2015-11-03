@@ -4,6 +4,7 @@
 # After downloading data in CSV format one fiscal year at a time from open.ua.edu,
 # this script can be used to combine the years into one file and add a FY column.
 # The input and output files should be located in _data in the parent directory.
+# (If you try to download all the data at once, their server crashes.)
 #
 
 __author__='mleeds95'
@@ -20,13 +21,10 @@ with open('../_data/' + outFilename, 'w') as outFile:
         with open('../_data/' + fname) as inFile:
             reader = csv.reader(inFile)
             for (j, row) in enumerate(reader):
-                if j == 0:
-                    row[0] = 'FY'
-                else:
-                    row[0] = fname.split('_')[2].split('.')[0]
                 if j > 0 or i == 0:
                     writer.writerow(row)
             print('Read ' + str(j) + ' rows from ' + fname)
             totalRows += j
+
 print('Wrote ' + str(totalRows) + ' rows to ' + outFilename)
 

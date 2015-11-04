@@ -34,7 +34,7 @@ class entry:
 		children = []
 		for child in self.children:
 			children.append(child.reprJSON())
-		return dict(key=self.key, descr=self.descr, src= self.source, url= self.url, values=values, hash=self.hashEntry()[:8], sub=children) 
+		return dict(key=self.key, descr=self.descr, src= self.source, url= self.url, values=values, hash=self.hashEntry()[:8], sub=children)
 
 
 # given a csv file generates a list of entry object,
@@ -44,8 +44,8 @@ def generateList(inputFile):
 	global LAST_YEAR
 	global MAX_LEVEL
 	csventries = []
-	
-	# attempt opening file if inputFile is not 
+
+	# attempt opening file if inputFile is not
 	# a file descriptor
 	if isinstance(inputFile, str):
 		filename = inputFile.split('/')[-1].split('.')[0]
@@ -94,7 +94,7 @@ def generateList(inputFile):
 				except:
 					value = 0
 				rowValues.append((year, value))
-			#create new entry object and add to list	
+			#create new entry object and add to list
 			csventries.append(entry(name.replace(' Total',''),row['TOOLTIP'], row['SOURCE'], row['SOURCE URL'], rowValues, int(row['LEVEL'])))
 
 		except Exception, e:
@@ -194,13 +194,14 @@ def updateHome():
 		FIRST_YEAR = None
 		LAST_YEAR = None
 		MAX_LEVEL = 0
+
 		try:
-            fd = open(filepath, 'rU')
-            csventries = generateList(fd)
-            sections += [csventries[-1]]
+			fd = open(filepath, 'rU')
+			csventries = generateList(fd)
+			sections += [csventries[-1]]
 		except Exception, e:
-		    print('Error in proceesing files for homepage update.')
-	        exit(1)
+			print('Error in proceesing files for homepage update.')
+			exit(1)
 
 	# create root and add the 3 sections as children
 	root = entry('root','', '', '', [], 0)
@@ -219,7 +220,7 @@ def updateHome():
 
 	# print output file name
 	print('home.json')
-		
+
 def updateData(inputFile):
 	outputFile = inputFile.split('/')[-1].split('.')[0]
 	csventries = generateList(inputFile)

@@ -42,7 +42,7 @@ with open('../_data/' + INFILENAME) as inFile:
     print(str(rows_read) + ' rows read from ' + INFILENAME)
 
 fiscal_years.sort()
-column_names = ['LEVEL1','LEVEL2'] + fiscal_years + ['LEVEL']
+column_names = ['LEVEL1','LEVEL2','TOOLTIP','SOURCE','SOURCE URL'] + fiscal_years + ['LEVEL']
 
 # write out the data according to the CodeforRaleigh format
 with open('../_data/' + OUTFILENAME, 'w') as outFile:
@@ -52,7 +52,7 @@ with open('../_data/' + OUTFILENAME, 'w') as outFile:
     for category in categories:
         category_totals = dict(zip(fiscal_years, [0] * len(fiscal_years)))
         for payee in categories[category]:
-            row = [category, payee]
+            row = [category, payee, '', '', '']
             for year in fiscal_years:
                 if year in categories[category][payee]:
                     category_totals[year] += categories[category][payee][year]
@@ -62,7 +62,7 @@ with open('../_data/' + OUTFILENAME, 'w') as outFile:
             row.append('2')
             writer.writerow(row)
             rows_written += 1
-        row = [category, '']
+        row = [category + ' Total', '', '', '', '']
         for year in fiscal_years:
             row.append(str(int(category_totals[year])))
         row.append('1')

@@ -49,6 +49,7 @@ with open('../_data/' + OUTFILENAME, 'w') as outFile:
     writer = csv.writer(outFile, quoting=csv.QUOTE_ALL)
     writer.writerow(column_names)
     rows_written = 1
+    grand_totals = dict(zip(fiscal_years, [0] * len(fiscal_years)))
     for category in categories:
         category_totals = dict(zip(fiscal_years, [0] * len(fiscal_years)))
         for payee in categories[category]:
@@ -65,8 +66,15 @@ with open('../_data/' + OUTFILENAME, 'w') as outFile:
         row = [category + ' Total', '', '', '', '']
         for year in fiscal_years:
             row.append(str(int(category_totals[year])))
+            grand_totals[year] += category_totals[year]
         row.append('1')
         writer.writerow(row)
         rows_written += 1
+    total_row = ['EXPENSES TOTAL', '', '', '', '']
+    for year in fiscal_years:
+        total_row.append(str(int(grand_totals[year])))
+    total_row.append('0')
+    writer.writerow(total_row)
+    rows_written += 1
     print(str(rows_written) + ' rows written to ' + OUTFILENAME)
 

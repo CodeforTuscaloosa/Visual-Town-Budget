@@ -25,6 +25,8 @@ with open('../_data/' + INFILENAME) as inFile:
         rows_read += 1
         category = row[2]
         payee = row[1]
+        if payee[-10:].isdigit():
+            payee = payee.rstrip('1234567890.')
         fiscal_year = row[9]
         amount = float(row[8])
         if category == '':

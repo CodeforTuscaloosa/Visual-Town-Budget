@@ -169,7 +169,7 @@ def generateTree(csventries, filename):
 
 	# tree to json format
 	try:
-		outputFile = open(filename + '.json', 'w')
+		outputFile = open('../_data/' + filename + '.json', 'w')
 	except  Exception, e:
 		print('Error opening output file.')
 		exit(1)

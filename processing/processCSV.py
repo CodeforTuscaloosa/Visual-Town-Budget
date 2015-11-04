@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import csv, json, hashlib, zlib, sys, os
 
 FIRST_YEAR = None
@@ -184,21 +186,21 @@ def updateHome():
 	global FIRST_YEAR, LAST_YEAR, MAX_LEVEL
 
 	# the files used to generate home data
-	files = ['../revenues.csv', '../expenses.csv', '../funds.csv']
+	files = ['../_data/expenses.csv']
 	sections = []
 
 	# add root entries from all 3 files to sections []
-	for file in files:
+	for filepath in files:
 		FIRST_YEAR = None
 		LAST_YEAR = None
 		MAX_LEVEL = 0
 		try:
-			fd = open(os.path.dirname(__file__) + file, 'rU')
-			csventries = generateList(fd)
-			sections += [csventries[-1]]
+            fd = open(filepath, 'rU')
+            csventries = generateList(fd)
+            sections += [csventries[-1]]
 		except Exception, e:
-			print('Error in proceesing files for homepage update.')
-			exit(1)
+		    print('Error in proceesing files for homepage update.')
+	        exit(1)
 
 	# create root and add the 3 sections as children
 	root = entry('root','', '', '', [], 0)
@@ -206,7 +208,7 @@ def updateHome():
 
 	# dump data to json file
 	try:
-		outputFile = open('home.json', 'w')
+		outputFile = open('../_data/home.json', 'w')
 	except  Exception, e:
 		print('Error opening home.json for write.')
 		exit(1)

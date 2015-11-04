@@ -115,7 +115,9 @@ This data structure could be changed should it be considered not ideal for futur
 
 
 ####Data Processing Workflow
+
 To get the data from open.ua.edu into the format needed for this application, one must follow these steps:
+
 1. Download the data from open.ua.edu one fiscal year at a time by entering date ranges, hitting Search, and exporting to CSV. Rename those files to `UA_FY_20XX.csv` and put them in the `_data` folder.
 2. From the processing folder, run `combine_years.py` to combine all those files into `ua_expenses.csv`, which will be a very big file. Ensure that the process worked but please don't try to commit it or any other huge file to the repo.
 3. Run `fix_commas.py` to quote the fields that contain commas and remove extra commas. This should generate `ua_expenses_fixed.csv`.

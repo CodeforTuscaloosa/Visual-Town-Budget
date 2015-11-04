@@ -1,6 +1,3 @@
-
-**NOTICE:** As of this writing the data used is still from Raleigh, NC not UA.
-
 Budget Visualization Framework
 ======== 
 

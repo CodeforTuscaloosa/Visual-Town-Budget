@@ -106,6 +106,7 @@ function initialize(){
     } else {
         avb.navbar.minimize();
     }
+    console.log(params);
 }
 
 /*
@@ -117,14 +118,16 @@ function initializeVisualizations(params) {
     // get previosly set year
     var yearCookie = parseInt(jQuery.cookie('year'));
     // use year listed in the params object
+    console.log('params.year:'+params.year);
     if (params.year !== undefined && !isNaN(parseInt(params.year))) {
         avb.thisYear = params.year;
     // use year previosly set (if any)
     } else if (!isNaN(yearCookie)) {
         avb.thisYear = yearCookie;
     } else {
-
+        avb.thisYear = 2015;
     }
+    console.log(avb.thisYear);
     avb.section = params.section;
 
     // highlight current selection in navigation bar
@@ -166,6 +169,9 @@ function loadData() {
 
     // initialize root level
     avb.root = avb.data[avb.section];
+    console.log(avb.data);
+    console.log(avb.root);
+    console.log(avb.root.values);
     // inialize year variables based on data
 
     // determine oldest year
@@ -176,7 +182,8 @@ function loadData() {
     avb.lastYear = d3.max(avb.root.values, function (d) {
         return d.year
     });
-    yearIndex = avb.thisYear - avb.firstYear;
+    yearIndex = avb.thisYear - 1 - avb.firstYear;
+    console.log('thisYear:' + avb.thisYear);
     avb.navbar.initialize(avb.thisYear);
 
     avb.currentNode.data = undefined;

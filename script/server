@@ -6,5 +6,5 @@ set -e
 # change to the parent directory
 cd "$(dirname "$0")/.."
 
-# start an HTTP Server on 0.0.0.0:8000 serving the frontend
-jekyll serve
+# start an HTTP Server on 0.0.0.0:4000 serving the frontend
+bundle exec jekyll serve
